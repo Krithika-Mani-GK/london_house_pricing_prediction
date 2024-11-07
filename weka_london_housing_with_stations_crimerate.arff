@@ -1,0 +1,2666 @@
+@relation 'weka_london_housing_with_stations_crimerate-weka.filters.unsupervised.attribute.Remove-R1-2,5-10,12-15'
+
+@attribute house_type {House,'Flat / Apartment','New development',Penthouse,Studio,Duplex,Mews}
+@attribute area_in_sq_ft numeric
+@attribute nearest_station {Wimbledon,'Old Street','Putney Bridge',Paddington,'Clapham Junction','Imperial Wharf','High Street Kensington',Tooting,Highgate,'St. Johns Wood',Hampstead,Brixton,Angel,'West Hampstead','Earls Court',Balham,'Chiswick Park','West Brompton','Barnes Bridge','Clapham Common',Homerton,Hornsey,Streatham,'Shepherds Bush',Bromley-by-Bow,'Camden Town','Gospel Oak','Oxford Circus','Ealing Broadway',Charlton,'Chancery Lane',Victoria,'South Kensington','Hackney Downs',Hammersmith,'Maida Vale','Golders Green',Temple,Mortlake,Vauxhall,'Wandsworth Town','Ladbroke Grove',Barbican,'London Bridge','Piccadilly Circus','West Kensington',Canonbury,'Bethnal Green','Woolwich Arsenal','Canary Wharf',Kennington,'Caledonian Road & Barnsbury','Aldgate East','West Ealing','Russell Square','Tower Gateway','Raynes Park','Leicester Square','Bond Street',Cricklewood,'Finsbury Park',Greenwich,'Canada Water','Goodge Street','Charing Cross','Acton Central','Green Park','West Dulwich','Mill Hill East',Farringdon,Hanwell,'Royal Victoria','Latimer Road','Liverpool Street',Moorgate,'Hackney Central',Westminster,'Peckham Rye',Chingford,'East Finchley','Dalston Junction',Blackfriars,Blackheath,'Covent Garden',Lewisham,Stratford,'Kew Bridge',Bank}
+@attribute price_per_sqft numeric
+@attribute distance_miles numeric
+@attribute no_of_crimes_per_year numeric
+
+@data
+House,2716,Wimbledon,61.671576,0.71,28092
+'Flat / Apartment',814,'Old Street',79.85258,0.44,38568
+'Flat / Apartment',761,'Putney Bridge',96.583443,2.09,28092
+House,1986,'Putney Bridge',88.872105,2.12,28092
+'Flat / Apartment',700,'Putney Bridge',96.428571,2.11,28092
+'Flat / Apartment',403,Paddington,104.218362,0.7,23748
+House,1548,'Clapham Junction',95.284238,0.69,28092
+'New development',560,'Imperial Wharf',116.071429,1.05,22068
+House,1308,'High Street Kensington',191.131498,0.23,23748
+'Flat / Apartment',646,'High Street Kensington',143.188854,0.16,23748
+House,3392,Tooting,70.754717,5.62,28092
+House,2974,Highgate,84.06187,0.33,29436
+'Flat / Apartment',778,'St. Johns Wood',93.187661,0.24,76860
+'Flat / Apartment',647,'St. Johns Wood',115.919629,0.29,76860
+'New development',1173,Hampstead,193.947144,1.21,31164
+'Flat / Apartment',597,Brixton,83.752094,0.87,34956
+'Flat / Apartment',765,'High Street Kensington',153.594771,0.2,23748
+'Flat / Apartment',479,Angel,114.822547,0.64,31164
+House,1101,Angel,118.074478,0.95,31164
+'Flat / Apartment',1177,'West Hampstead',67.969414,0.46,31164
+House,2331,Hampstead,150.15015,0.89,31164
+'Flat / Apartment',582,'Earls Court',189.003436,0.29,23748
+House,1494,Balham,80.321285,0.35,28092
+House,1507,Brixton,82.946251,0.15,34956
+'Flat / Apartment',945,Brixton,73.544974,0.32,34956
+House,2118,'Chiswick Park',81.916903,0.65,27216
+House,2297,'Chiswick Park',102.307357,0.83,27216
+House,1351,'Chiswick Park',88.823094,0.33,27216
+'Flat / Apartment',749,'West Brompton',130.173565,0.72,23748
+House,1177,'Barnes Bridge',72.217502,0.91,13728
+'Flat / Apartment',1321,'Clapham Junction',70.02271,0.33,28092
+'Flat / Apartment',670,'Clapham Junction',82.089552,1.25,28092
+House,1910,'Clapham Junction',96.858639,0.64,28092
+'New development',590,'Clapham Junction',88.983051,0.95,28092
+House,2239,'Clapham Common',98.258151,0.5,34956
+House,884,Homerton,82.013575,0.14,33036
+'Flat / Apartment',1232,'St. Johns Wood',142.045455,0.27,76860
+'New development',1307,Hornsey,95.638868,0.34,29436
+Penthouse,2185,'West Brompton',153.318078,0.57,23748
+'Flat / Apartment',1228,'Clapham Junction',8.143322,0.82,28092
+House,2511,'Barnes Bridge',93.588212,0.71,13728
+'Flat / Apartment',1528,'West Brompton',137.10733,1.02,23748
+'Flat / Apartment',811,Paddington,154.130703,1.38,23748
+'Flat / Apartment',969,'Clapham Junction',75.851393,0.32,28092
+House,1132,Tooting,77.29682,5.58,28092
+House,2498,Streatham,50.040032,6.34,34956
+'Flat / Apartment',643,'Shepherds Bush',92.534992,0.59,22068
+House,974,Bromley-by-Bow,84.188912,1.02,32976
+'Flat / Apartment',850,'Camden Town',97.647059,1,38568
+'Flat / Apartment',458,'Gospel Oak',109.170306,0.38,31164
+'Flat / Apartment',448,'Clapham Common',107.142857,0.32,34956
+House,1763,'Oxford Circus',198.525241,0.1,76860
+'Flat / Apartment',1208,'Oxford Circus',173.84106,0.07,76860
+'New development',1023,'Ealing Broadway',63.538612,0.9,32364
+House,1890,Balham,68.783069,0.37,28092
+House,1348,Charlton,46.364985,0.81,28476
+'Flat / Apartment',540,'Chancery Lane',115.740741,0.25,38568
+'New development',791,Victoria,139.064475,0.43,76860
+House,1375,'Clapham Junction',96.363636,0.74,28092
+'Flat / Apartment',1068,'West Brompton',117.041199,0.29,23748
+House,1119,'South Kensington',205.540661,0.33,23748
+House,1811,'Hackney Downs',82.827167,0.24,33036
+House,1603,Balham,84.217093,0.45,28092
+'Flat / Apartment',495,Paddington,160.606061,1.57,76860
+House,2120,'Imperial Wharf',122.40566,0.72,22068
+'Flat / Apartment',631,Victoria,129.952456,0.62,76860
+'Flat / Apartment',705,Hammersmith,96.453901,0.55,22068
+House,1956,'Imperial Wharf',117.586912,1.13,22068
+House,2083,'Barnes Bridge',110.417667,0.65,13728
+House,3714,'Barnes Bridge',10.770059,1.74,13728
+'Flat / Apartment',516,'Clapham Junction',96.899225,0.48,28092
+'Flat / Apartment',1185,'Maida Vale',107.594937,0.45,23748
+House,2972,'High Street Kensington',151.41319,0.38,23748
+House,2125,'Golders Green',82.352941,0.37,31164
+House,2350,Hampstead,110.638298,0.47,31164
+House,2354,Hampstead,146.559048,0.2,31164
+House,2183,'Clapham Junction',107.650023,0.64,28092
+'Flat / Apartment',1218,Victoria,194.99179,0.41,76860
+House,1841,Wimbledon,108.365019,0.69,28092
+House,1154,Homerton,8.665511,0.17,33036
+House,2314,'Clapham Common',77.571305,0.18,34956
+House,1483,'Oxford Circus',165.205664,0.82,76860
+'Flat / Apartment',1770,Temple,197.740113,0.2,76860
+'Flat / Apartment',773,Angel,109.96119,0.71,31164
+'Flat / Apartment',654,Hampstead,119.266055,0.75,31164
+House,1081,Mortlake,83.256244,0.43,13728
+House,3986,Tooting,62.719518,5.62,28092
+'Flat / Apartment',773,'Chiswick Park',74.385511,0.68,27216
+House,1708,Vauxhall,73.185012,1.09,23748
+'Flat / Apartment',1580,'Clapham Junction',99.683544,0.91,28092
+House,6602,Wimbledon,71.947895,0.4,28092
+House,1909,'Putney Bridge',61.55055,2.03,28092
+House,1771,'Wandsworth Town',67.758329,1.25,28092
+House,2374,'Wandsworth Town',71.609099,0.99,28092
+House,2125,'Ladbroke Grove',4.705882,0.16,23748
+'New development',903,Barbican,181.063123,0.12,24000
+House,3753,Streatham,49.293898,6.35,34956
+'Flat / Apartment',1736,Paddington,138.248848,1.25,23748
+'New development',590,'London Bridge',203.389831,1.25,35496
+House,1298,'Imperial Wharf',96.302003,0.18,22068
+House,1912,'Imperial Wharf',120.292887,1.07,22068
+'Flat / Apartment',1465,'Chiswick Park',88.737201,0.75,27216
+House,1580,'Imperial Wharf',110.759494,0.29,22068
+House,2300,Wimbledon,65,0.41,28092
+House,1953,'Wandsworth Town',83.205325,3.73,28092
+House,1449,'South Kensington',217.391304,0.52,23748
+House,1902,'Putney Bridge',73.343849,2.04,28092
+'Flat / Apartment',2056,'Putney Bridge',67.363813,2.03,28092
+'Flat / Apartment',922,'Clapham Common',86.767896,0.13,34956
+House,2316,'Piccadilly Circus',159.542314,0.24,76860
+'Flat / Apartment',1195,Victoria,184.100418,1.87,23748
+'Flat / Apartment',687,Victoria,171.033479,1.87,23748
+'Flat / Apartment',2470,'West Kensington',125.506073,0.81,23748
+'Flat / Apartment',1012,Canonbury,91.403162,0.74,31164
+Penthouse,414,'Bethnal Green',132.850242,0.27,32976
+Studio,381,'Hackney Downs',68.24147,0.67,33036
+'Flat / Apartment',547,Angel,100.548446,1.2,31164
+House,2202,Hampstead,108.991826,0.12,31164
+'New development',460,'Wandsworth Town',126.086957,3.44,28092
+House,2785,'Imperial Wharf',82.585278,1.2,22068
+House,1270,Balham,94.488189,0.22,28092
+House,1934,Balham,77.559462,0.34,28092
+House,2605,'Clapham Common',86.372361,0.09,34956
+House,2047,Balham,73.277968,0.19,28092
+House,2850,Tooting,75.438596,5.6,28092
+House,2555,Tooting,62.426614,5.43,28092
+House,2088,Balham,74.952107,0.3,28092
+House,2173,Balham,69.028992,0.46,28092
+'Flat / Apartment',774,'Woolwich Arsenal',51.679587,0.21,28476
+'Flat / Apartment',525,'Canary Wharf',79.047619,0.64,32976
+Penthouse,1230,'Old Street',113.414634,0.54,38568
+House,2734,'Chiswick Park',102.414045,0.75,27216
+'Flat / Apartment',872,'West Brompton',137.041284,0.41,23748
+'Flat / Apartment',1839,'West Brompton',149.537792,0.63,23748
+House,2675,'Clapham Junction',102.803738,0.71,28092
+'Flat / Apartment',514,Wimbledon,102.140078,0.3,28092
+House,3256,'Oxford Circus',115.17199,0.17,76860
+'Flat / Apartment',714,'South Kensington',245.098039,0.62,23748
+'Flat / Apartment',604,Victoria,124.172185,0.73,23748
+'Flat / Apartment',1755,'High Street Kensington',179.487179,0.35,23748
+'Flat / Apartment',800,Kennington,71.875,0.45,35496
+House,2475,Tooting,50.505051,5.63,28092
+House,1703,Tooting,67.527892,5.48,28092
+'Flat / Apartment',584,'Old Street',111.30137,0.43,31164
+House,1356,'Chiswick Park',95.501475,0.19,27216
+'Flat / Apartment',1362,'Imperial Wharf',56.167401,1.03,22068
+House,1420,'Barnes Bridge',77.464789,1.46,13728
+House,2153,'Barnes Bridge',109.150023,0.57,13728
+House,1222,Tooting,78.968903,5.38,28092
+'Flat / Apartment',732,'Ladbroke Grove',239.071038,0.53,23748
+'Flat / Apartment',525,'Maida Vale',90.47619,0.06,23748
+House,3406,'Clapham Common',87.933059,0.17,34956
+House,2500,Mortlake,73,0.38,13728
+'Flat / Apartment',609,Vauxhall,90.311987,1.17,23748
+House,2516,'Clapham Common',73.529412,0.16,34956
+'Flat / Apartment',428,Victoria,146.028037,0.53,76860
+'Flat / Apartment',1604,Victoria,142.76808,0.41,76860
+House,1820,'South Kensington',189.56044,0.42,23748
+'Flat / Apartment',710,Hampstead,140.140845,1.29,31164
+'New development',538,'Caledonian Road & Barnsbury',83.643123,0.76,31164
+'Flat / Apartment',935,'Chiswick Park',90.909091,1.22,27216
+'Flat / Apartment',950,'Maida Vale',102.631579,0.12,23748
+'Flat / Apartment',924,'High Street Kensington',200.21645,0.18,23748
+House,1074,'Hackney Downs',87.523277,0.55,33036
+House,1779,Mortlake,71.669477,0.34,13728
+House,1541,Mortlake,85.983128,0.51,13728
+'Flat / Apartment',880,'Clapham Junction',98.295455,0.67,28092
+'Flat / Apartment',859,'Clapham Junction',75.669383,0.33,28092
+'New development',1577,'High Street Kensington',221.940393,0.12,23748
+House,1944,Canonbury,87.191358,0.88,31164
+'Flat / Apartment',472,'Canary Wharf',847.447034,0.7,32976
+House,2865,Victoria,162.303665,0.35,23748
+House,1448,'South Kensington',193.370166,0.55,23748
+'Flat / Apartment',1056,Angel,104.166667,1.1,31164
+'Flat / Apartment',1811,Hammersmith,146.327996,0.57,22068
+House,2550,Brixton,61.764706,0.28,34956
+'Flat / Apartment',775,'Clapham Junction',67.741935,0.88,28092
+'Flat / Apartment',1099,Victoria,150.136488,0.56,76860
+'Flat / Apartment',726,'Camden Town',117.07989,1.11,38568
+House,1791,Paddington,150.753769,1.31,23748
+House,795,Wimbledon,87.421384,0.79,28092
+House,1293,'St. Johns Wood',158.546017,0.21,76860
+'Flat / Apartment',972,'Aldgate East',63.271605,0.52,32976
+'Flat / Apartment',1777,'Putney Bridge',5.627462,2.03,28092
+'Flat / Apartment',526,'Clapham Common',59.885932,0.17,34956
+'New development',1328,Victoria,139.307229,0.32,23748
+House,1289,Victoria,224.592708,0.4,23748
+'Flat / Apartment',459,Angel,98.039216,0.67,31164
+'Flat / Apartment',949,Tooting,71.127503,5.54,28092
+House,1068,'Chiswick Park',130.617978,0.52,27216
+'Flat / Apartment',858,'Barnes Bridge',84.498834,1.11,13728
+House,2525,'Barnes Bridge',7.920792,1.58,13728
+'Flat / Apartment',664,'Imperial Wharf',94.126506,0.21,22068
+House,1328,Hammersmith,101.656627,0.83,22068
+House,2191,'Clapham Junction',95.846645,0.64,28092
+House,1892,Mortlake,97.780127,0.42,13728
+'Flat / Apartment',1132,'Clapham Junction',132.508834,1.13,28092
+House,2190,'Camden Town',165.525114,0.76,38568
+'Flat / Apartment',1274,'London Bridge',117.739403,0.84,35496
+'Flat / Apartment',630,'Barnes Bridge',83.333333,1.32,13728
+'Flat / Apartment',455,Homerton,63.736264,0.16,33036
+House,2931,'Putney Bridge',58.853634,2.03,28092
+House,1510,Angel,92.384106,0.69,31164
+House,1504,Victoria,222.739362,0.76,23748
+House,2067,'Putney Bridge',86.840832,2.03,28092
+House,1997,'West Ealing',75.112669,0.31,32364
+House,2149,'Wandsworth Town',74.453234,3.61,28092
+House,3620,Streatham,42.81768,6.34,34956
+'Flat / Apartment',1195,Victoria,110.878661,0.8,76860
+House,1587,'Camden Town',87.901701,0.41,38568
+'Flat / Apartment',849,'Russell Square',86.572438,0.23,38568
+'Flat / Apartment',2550,'Tower Gateway',58.823529,0.45,32976
+'Flat / Apartment',832,'Canary Wharf',81.610577,0.33,32976
+'Flat / Apartment',1244,'West Brompton',120.578778,0.64,23748
+House,1604,'Putney Bridge',84.164589,2.04,28092
+'New development',723,Angel,86.445367,0.69,31164
+'Flat / Apartment',660,Angel,90.909091,1.18,31164
+'Flat / Apartment',627,'Tower Gateway',139.553429,0.62,32976
+'Flat / Apartment',872,'Canary Wharf',64.793578,0.4,32976
+'Flat / Apartment',1201,'Imperial Wharf',104.079933,0.96,22068
+'Flat / Apartment',1453,'Clapham Junction',123.881624,0.93,28092
+'New development',1781,Hornsey,83.941606,0.44,29436
+House,3800,Vauxhall,81.578947,0.59,23748
+'Flat / Apartment',1831,Wimbledon,57.345713,0.69,28092
+House,2503,Wimbledon,73.911306,0.62,28092
+'Flat / Apartment',1061,'Caledonian Road & Barnsbury',68.803016,0.75,31164
+'Flat / Apartment',736,Tooting,88.315217,5.43,28092
+House,2438,'Barnes Bridge',86.136177,0.5,13728
+House,2600,'Barnes Bridge',86.538462,0.95,13728
+House,1867,'Clapham Junction',90.787359,0.59,28092
+House,1884,'Raynes Park',72.983015,0.77,28092
+House,2138,'Wandsworth Town',65.481759,3.54,28092
+'Flat / Apartment',927,'Putney Bridge',68.500539,2.04,28092
+Penthouse,1845,'Leicester Square',162.330623,0.17,38568
+'Flat / Apartment',526,Homerton,855.418251,0.17,33036
+'Flat / Apartment',474,'St. Johns Wood',89.662447,0.4,76860
+House,1902,'Putney Bridge',94.374343,2.04,28092
+'Flat / Apartment',801,'Camden Town',199.750312,0.62,38568
+'Flat / Apartment',1002,'Ladbroke Grove',174.650699,0.58,23748
+House,2275,'Clapham Junction',90.10989,0.76,28092
+'Flat / Apartment',1371,'Clapham Junction',83.880379,0.45,28092
+House,2446,'South Kensington',40.678659,0.25,23748
+House,1703,Angel,111.567821,0.9,31164
+'Flat / Apartment',792,Angel,85.227273,0.48,31164
+'New development',1273,'Bethnal Green',117.831893,0.27,32976
+'New development',786,'Caledonian Road & Barnsbury',78.880407,0.76,31164
+'Flat / Apartment',747,Angel,87.014726,0.97,31164
+'Flat / Apartment',663,'Tower Gateway',75.414781,0.67,32976
+House,2006,Brixton,69.541376,0.45,34956
+House,3597,Hammersmith,82.012788,0.58,22068
+'New development',841,'Putney Bridge',90.963139,2.07,28092
+House,1854,'Barnes Bridge',86.299892,0.48,13728
+House,1126,'Clapham Junction',86.589698,0.49,28092
+'Flat / Apartment',1294,'Clapham Junction',73.415765,0.69,28092
+House,1582,Paddington,135.903919,0.18,76860
+Penthouse,1840,'Piccadilly Circus',160.326087,0.21,76860
+House,1115,'Imperial Wharf',134.529148,0.57,22068
+'Flat / Apartment',882,'Tower Gateway',73.696145,0.43,32976
+House,1700,Streatham,55.882353,6.36,34956
+'Flat / Apartment',663,Balham,94.268477,0.22,28092
+House,1983,'Barnes Bridge',79.425113,1.48,13728
+House,1266,'South Kensington',201.421801,0.38,23748
+'Flat / Apartment',707,'Clapham Junction',74.257426,0.49,28092
+'Flat / Apartment',967,Homerton,80.144778,0.16,33036
+House,2210,'Putney Bridge',147.058824,2.13,28092
+House,2153,'Clapham Junction',82.443103,0.99,28092
+House,2543,Hampstead,127.801809,0.91,31164
+'Flat / Apartment',797,'Clapham Junction',87.82936,1.08,28092
+'Flat / Apartment',760,'Ealing Broadway',78.289474,1,32364
+'Flat / Apartment',540,'Putney Bridge',97.222222,2.04,28092
+House,3007,'Raynes Park',81.476555,0.44,28092
+House,538,Wimbledon,102.230483,0.16,28092
+House,6186,Wimbledon,63.853864,0.35,28092
+'Flat / Apartment',1024,'Wandsworth Town',58.59375,3.73,28092
+House,1984,'Wandsworth Town',73.084677,3.31,28092
+'Flat / Apartment',745,Bromley-by-Bow,24.161074,0.61,32976
+Studio,328,'Putney Bridge',64.02439,2.03,28092
+House,8315,'Bond Street',21.647625,0.41,76860
+House,2857,Angel,99.754988,0.71,31164
+'Flat / Apartment',1074,Angel,107.07635,0.59,31164
+'New development',596,'Bethnal Green',115.771812,0.27,32976
+'Flat / Apartment',999,Cricklewood,99.5996,0.82,31452
+Penthouse,962,'Putney Bridge',10.39501,2.05,28092
+House,2358,Mortlake,80.57676,0.25,13728
+House,1813,Mortlake,71.428571,0.36,13728
+'Flat / Apartment',1169,'Tower Gateway',109.495295,0.27,32976
+House,2028,'Chiswick Park',70.266272,0.41,27216
+House,1720,'Barnes Bridge',104.360465,0.78,13728
+House,1423,'Clapham Junction',79.058327,0.31,28092
+'Flat / Apartment',1001,'Clapham Junction',94.405594,0.99,28092
+House,2809,'Clapham Junction',112.139551,0.64,28092
+House,1420,'Chiswick Park',89.788732,0.4,27216
+House,2428,'West Brompton',154.448105,0.71,23748
+'Flat / Apartment',431,'St. Johns Wood',106.728538,0.19,76860
+House,2096,'Putney Bridge',80.868321,2.1,28092
+'Flat / Apartment',769,'Russell Square',117.035111,0.41,38568
+'Flat / Apartment',1155,'Barnes Bridge',103.896104,0.93,13728
+House,1607,Homerton,68.450529,0.1,33036
+'New development',646,'Bethnal Green',100.619195,0.92,32976
+House,3716,Mortlake,79.386437,0.23,13728
+House,953,'Clapham Junction',62.959077,0.79,28092
+House,2313,'Imperial Wharf',105.923044,0.79,22068
+'Flat / Apartment',939,'Wandsworth Town',82.534611,3.6,28092
+'Flat / Apartment',652,'St. Johns Wood',95.858896,0.13,76860
+Studio,344,'Camden Town',85.755814,0.74,38568
+House,1519,'St. Johns Wood',154.707044,0.23,76860
+House,1299,Victoria,173.210162,0.67,23748
+'Flat / Apartment',451,'Camden Town',110.643016,0.42,38568
+'Flat / Apartment',1339,'Clapham Junction',63.480209,0.49,28092
+House,1340,Victoria,186.567164,0.53,23748
+Penthouse,1765,Paddington,127.478754,0.96,76860
+'Flat / Apartment',1752,'High Street Kensington',142.694064,0.4,23748
+'New development',560,'Finsbury Park',84.821429,0.06,33036
+'New development',657,'Caledonian Road & Barnsbury',85.235921,0.76,31164
+'New development',758,'Caledonian Road & Barnsbury',80.474934,0.76,31164
+'New development',758,'Caledonian Road & Barnsbury',79.155673,0.76,31164
+'Flat / Apartment',658,Hammersmith,91.18541,0.51,22068
+'Flat / Apartment',848,'Clapham Junction',76.650943,0.61,28092
+House,1824,'Gospel Oak',98.410088,0.5,31164
+'Flat / Apartment',843,'Imperial Wharf',97.864769,0.81,22068
+House,3180,Brixton,73.899371,0.36,34956
+'Flat / Apartment',2577,Angel,91.191308,0.63,31164
+'Flat / Apartment',1498,'South Kensington',166.889186,0.39,23748
+'Flat / Apartment',946,Tooting,71.353066,5.53,28092
+'Flat / Apartment',932,Hampstead,128.755365,0.87,31164
+'Flat / Apartment',663,'Imperial Wharf',94.268477,0.06,22068
+'Flat / Apartment',600,'Wandsworth Town',75,0.94,28092
+House,3070,'Imperial Wharf',112.37785,1.07,22068
+'Flat / Apartment',908,Victoria,109.581498,0.55,23748
+'Flat / Apartment',1536,Wimbledon,51.757813,0.68,28092
+House,2336,Wimbledon,75.984589,0.68,28092
+Studio,277,'Clapham Common',106.498195,0.18,34956
+'Flat / Apartment',1779,'Maida Vale',146.149522,0.07,23748
+House,1917,Victoria,206.051122,1.59,23748
+House,1666,'Caledonian Road & Barnsbury',90.036014,0.42,31164
+House,1629,Canonbury,82.872928,1.12,31164
+'Flat / Apartment',1069,Angel,84.190833,1.06,31164
+House,2500,'Caledonian Road & Barnsbury',110,0.24,31164
+House,2730,'Imperial Wharf',106.043956,0.86,22068
+House,2949,'Imperial Wharf',76.29705,0.58,22068
+'New development',1262,'Imperial Wharf',160.063391,0.77,22068
+House,1308,Tooting,74.541284,5.4,28092
+House,2790,Tooting,57.168459,5.62,28092
+'Flat / Apartment',978,'Old Street',86.912065,0.24,38568
+'Flat / Apartment',682,'Shepherds Bush',83.577713,1.44,22068
+House,2411,Highgate,99.543758,0.25,29436
+'Flat / Apartment',496,Greenwich,95.766129,2.91,28476
+House,1934,'Putney Bridge',62.04757,2.03,28092
+House,4370,Wimbledon,74.370709,0.68,28092
+House,2153,Angel,110.311194,0.39,31164
+'Flat / Apartment',595,'St. Johns Wood',109.243697,0.4,76860
+House,876,'Putney Bridge',147.83105,2.07,28092
+House,905,'Putney Bridge',11.049724,2.11,28092
+'Flat / Apartment',1675,'Clapham Junction',112.537313,1.09,28092
+'Flat / Apartment',797,Wimbledon,79.673777,0.31,28092
+'New development',4420,'Raynes Park',79.072398,0.51,28092
+House,1378,'Wandsworth Town',87.082729,3.28,28092
+House,1751,'Wandsworth Town',68.532267,1.25,28092
+House,2330,'Wandsworth Town',68.669528,3.56,28092
+House,1214,'Putney Bridge',65.815486,2.06,28092
+'Flat / Apartment',876,'Putney Bridge',97.031963,2.06,28092
+House,1323,'Oxford Circus',188.964475,0.7,76860
+House,2547,Paddington,155.084413,0.36,76860
+House,1393,Victoria,215.003589,0.39,23748
+'Flat / Apartment',888,'West Brompton',112.04955,0.32,23748
+House,1857,Angel,121.163166,0.25,31164
+'New development',538,'Caledonian Road & Barnsbury',78.066914,0.76,31164
+'Flat / Apartment',422,'Hackney Downs',1007.097156,0.45,33036
+'Flat / Apartment',2074,Hampstead,103.664417,0.37,31164
+House,1645,'Imperial Wharf',91.18541,0.07,22068
+House,2115,Balham,74.468085,0.33,28092
+House,2242,Balham,66.90455,0.11,28092
+'Flat / Apartment',600,'Canary Wharf',91.666667,0.24,32976
+'Flat / Apartment',381,'Russell Square',124.671916,0.32,38568
+'Flat / Apartment',791,'West Brompton',75.221239,0.62,23748
+House,2937,'Barnes Bridge',76.608784,1.6,13728
+'Flat / Apartment',907,'Imperial Wharf',83.241455,0.22,22068
+'Flat / Apartment',1218,'Clapham Junction',73.891626,0.8,28092
+'Flat / Apartment',1560,Victoria,127.564103,0.41,76860
+House,1464,Wimbledon,81.625683,0.8,28092
+'Flat / Apartment',696,'Wandsworth Town',64.655172,0.71,28092
+'Flat / Apartment',339,Homerton,95.870206,0.07,33036
+House,1541,Homerton,74.626866,0.07,33036
+'Flat / Apartment',1456,'Putney Bridge',58.379121,2.03,28092
+'New development',1004,'Putney Bridge',87.549801,2.1,28092
+House,1875,'Clapham Junction',69.066667,0.21,28092
+'Flat / Apartment',695,Balham,82.733813,0.55,28092
+'Flat / Apartment',1496,'Bond Street',274.064171,0.38,76860
+House,1919,Angel,93.798854,0.84,31164
+'Flat / Apartment',1170,'South Kensington',136.324786,0.33,23748
+'New development',690,'Canada Water',72.318841,0.29,35496
+Penthouse,2852,'Wandsworth Town',119.565217,3.39,28092
+House,1724,'South Kensington',165.313225,0.2,23748
+'Flat / Apartment',1474,'South Kensington',128.561737,0.31,23748
+House,1756,'Imperial Wharf',93.963554,0.24,22068
+House,1806,Hammersmith,67.829457,0.68,22068
+House,2145,'Shepherds Bush',51.282051,1.01,22068
+House,950,Wimbledon,115.263158,0.4,28092
+'Flat / Apartment',904,'Raynes Park',60.840708,0.45,28092
+House,2583,'Wandsworth Town',58.072009,3.9,28092
+'Flat / Apartment',911,'Wandsworth Town',82.327113,3.29,28092
+House,1822,'Wandsworth Town',63.117453,3.89,28092
+'Flat / Apartment',647,'St. Johns Wood',102.782071,0.4,76860
+'Flat / Apartment',1036,'St. Johns Wood',120.656371,0.3,76860
+'Flat / Apartment',632,'Clapham Junction',94.936709,0.74,28092
+'Flat / Apartment',946,'Clapham Junction',73.995772,0.85,28092
+House,3020,'Clapham Junction',81.125828,1.13,28092
+'Flat / Apartment',853,Victoria,205.158265,0.74,23748
+'New development',1033,Angel,86.640852,0.66,31164
+'Flat / Apartment',884,Hampstead,11.312217,0.15,31164
+House,2124,'Imperial Wharf',108.286252,0.56,22068
+'Flat / Apartment',444,'Ealing Broadway',84.459459,0.4,32364
+'New development',591,'Imperial Wharf',122.673435,0.64,22068
+'Flat / Apartment',1140,Victoria,86.403509,0.37,76860
+'Flat / Apartment',795,'Wandsworth Town',73.584906,3.65,28092
+House,1993,'Wandsworth Town',49.924737,3.51,28092
+'Flat / Apartment',666,'Bethnal Green',82.582583,0.3,32976
+'Flat / Apartment',885,Hampstead,141.242938,1.22,31164
+House,2396,Paddington,156.510851,0.37,76860
+Studio,514,'Clapham Common',83.657588,0.49,34956
+'Flat / Apartment',891,'Clapham Common',93.15376,0.49,34956
+'Flat / Apartment',635,'Goodge Street',173.228346,0.18,38568
+'New development',1410,'Charing Cross',219.858156,0.15,76860
+'Flat / Apartment',706,'High Street Kensington',131.01983,0.1,23748
+House,3319,Canonbury,79.843326,0.48,31164
+'Flat / Apartment',569,Canonbury,79.086116,1.16,31164
+'Flat / Apartment',720,'Hackney Downs',90.277778,0.66,33036
+Penthouse,1209,'Imperial Wharf',103.391232,0.61,22068
+'Flat / Apartment',810,'Old Street',95.679012,0.84,38568
+House,1080,'Acton Central',74.074074,0.58,27264
+House,1735,'Barnes Bridge',106.628242,0.75,13728
+House,1108,'Barnes Bridge',135.379061,0.98,13728
+House,2147,'Shepherds Bush',78.947368,1.44,22068
+'Flat / Apartment',686,'Clapham Junction',109.329446,1.59,28092
+'Flat / Apartment',1492,'Clapham Junction',133.042895,1.09,28092
+'Flat / Apartment',1125,'St. Johns Wood',97.777778,0.3,76860
+'Flat / Apartment',674,'Old Street',96.439169,0.44,38568
+House,2145,Victoria,209.79021,0.63,23748
+'New development',2552,Paddington,186.128527,1.54,23748
+House,2172,Highgate,98.987109,0.19,29436
+'Flat / Apartment',964,'Ealing Broadway',72.095436,0.53,32364
+'Flat / Apartment',573,'West Kensington',100.34904,0.42,23748
+'Flat / Apartment',966,'Earls Court',201.863354,0.22,23748
+House,2365,Mortlake,8.45666,0.54,13728
+'Flat / Apartment',816,'Tower Gateway',134.803922,0.29,32976
+House,2500,Tooting,62,5.61,28092
+House,1868,'Chiswick Park',80.299786,1.07,27216
+House,960,'Chiswick Park',75.520833,0.32,27216
+'Flat / Apartment',739,'Imperial Wharf',106.224628,0.21,22068
+'Flat / Apartment',491,Homerton,81.466395,0.19,33036
+House,2157,Victoria,220.213259,0.96,23748
+'Flat / Apartment',931,Angel,99.355532,0.8,31164
+House,1776,'Imperial Wharf',101.351351,1.18,22068
+House,3144,'Imperial Wharf',93.829517,1.15,22068
+'New development',825,'Imperial Wharf',96.363636,0.42,22068
+'Flat / Apartment',798,'Imperial Wharf',99.62406,0.7,22068
+'New development',558,'Imperial Wharf',139.784946,0.75,22068
+'New development',461,'Canada Water',86.334056,0.73,35496
+'Flat / Apartment',680,Kennington,83.823529,0.35,35496
+House,1007,Tooting,62.065541,5.42,28092
+House,1259,'Barnes Bridge',91.342335,1.02,13728
+'Flat / Apartment',703,'Old Street',93.172119,0.44,38568
+'Flat / Apartment',482,Angel,77.80083,1.09,31164
+House,2221,Hampstead,107.834309,1.3,31164
+'Flat / Apartment',614,'Clapham Junction',109.120521,0.36,28092
+House,1792,'Clapham Junction',80.915179,0.83,28092
+'Flat / Apartment',2203,'Goodge Street',79.437131,0.12,38568
+House,1673,Victoria,134.488942,0.23,23748
+Penthouse,1424,Angel,90.941011,0.5,31164
+House,2435,Mortlake,71.868583,0.41,13728
+'Flat / Apartment',707,Balham,99.009901,0.19,28092
+House,2137,'Barnes Bridge',98.268601,1.64,13728
+House,1414,'Clapham Junction',54.809052,0.47,28092
+House,2379,'Wandsworth Town',66.204288,3.55,28092
+'Flat / Apartment',1091,Homerton,59.578368,0.18,33036
+House,2344,Mortlake,95.989761,0.54,13728
+House,2540,Mortlake,68.897638,0.44,13728
+House,1737,'Chiswick Park',79.447323,0.45,27216
+House,3717,Wimbledon,82.055421,0.17,28092
+House,3594,Wimbledon,65.386756,0.27,28092
+'Flat / Apartment',913,Victoria,369.66046,0.85,23748
+'Flat / Apartment',1138,Paddington,149.384886,1.12,23748
+Penthouse,2231,'Green Park',208.426714,0.47,76860
+'Flat / Apartment',1074,'Bond Street',195.530726,0.3,76860
+'New development',506,'Finsbury Park',77.075099,0.06,33036
+House,1684,'Imperial Wharf',97.980998,0.11,22068
+'Flat / Apartment',1997,'Earls Court',10.015023,0.11,23748
+House,2055,Balham,77.128954,0.15,28092
+House,4774,'Wandsworth Town',89.023879,1.22,28092
+House,2815,'West Brompton',140.319716,0.48,23748
+'Flat / Apartment',1295,'Wandsworth Town',76.061776,3.32,28092
+'Flat / Apartment',1275,Victoria,117.647059,0.41,23748
+'Flat / Apartment',543,Victoria,85.635359,0.38,76860
+House,1357,Wimbledon,70.007369,0.75,28092
+'Flat / Apartment',1134,'Wandsworth Town',63.932981,3.73,28092
+'Flat / Apartment',473,'St. Johns Wood',98.308668,0.4,76860
+'Flat / Apartment',451,'St. Johns Wood',110.864745,0.19,76860
+'Flat / Apartment',820,'Wandsworth Town',94.512195,3.34,28092
+House,2052,'Clapham Junction',75.536062,0.55,28092
+House,3247,Tooting,56.97567,5.47,28092
+'Flat / Apartment',458,Brixton,545.849345,0.12,34956
+House,3448,'Maida Vale',95.707657,0.25,23748
+'Flat / Apartment',1402,'Goodge Street',114.122682,0.18,38568
+Penthouse,890,'Goodge Street',201.123596,0.43,38568
+'Flat / Apartment',987,'Bond Street',227.963526,0.38,76860
+'Flat / Apartment',1027,'Bond Street',258.033106,0.38,76860
+'New development',820,'Imperial Wharf',120.731707,1.05,22068
+'New development',1259,Barbican,131.056394,0.12,24000
+'New development',618,Victoria,123.786408,0.73,23748
+'Flat / Apartment',1095,Angel,100.456621,0.75,31164
+'Flat / Apartment',540,'Hackney Downs',879.537037,0.77,33036
+Penthouse,1879,Hampstead,130.388505,0.59,31164
+'Flat / Apartment',668,Hampstead,97.305389,0.73,31164
+'Flat / Apartment',539,'Ealing Broadway',834.786642,0.53,32364
+'Flat / Apartment',734,'South Kensington',53.814714,0.4,23748
+Penthouse,1539,'Canada Water',6.497726,0.11,35496
+'Flat / Apartment',1517,Balham,54.383652,0.56,28092
+House,2340,Tooting,68.376068,5.57,28092
+'Flat / Apartment',1085,'Chancery Lane',115.207373,0.32,38568
+House,1112,'Chiswick Park',98.920863,0.21,27216
+House,1517,'Chiswick Park',79.103494,0.45,27216
+House,5108,'Barnes Bridge',7.830854,1.4,13728
+House,1952,'Barnes Bridge',64.036885,0.83,13728
+'Flat / Apartment',477,'West Kensington',90.146751,0.82,23748
+'Flat / Apartment',556,Hammersmith,114.208633,0.61,22068
+'New development',960,'Shepherds Bush',10.416667,0.87,22068
+'Flat / Apartment',783,'Shepherds Bush',53.639847,0.67,22068
+'Flat / Apartment',552,'Clapham Junction',105.978261,1.04,28092
+House,1148,'Clapham Junction',69.686411,0.51,28092
+House,2131,'Wandsworth Town',68.043172,3.75,28092
+House,2518,'Wandsworth Town',7.942812,3.7,28092
+'Flat / Apartment',814,'St. Johns Wood',122.235872,0.48,76860
+'Flat / Apartment',917,'Green Park',354.416576,0.2,76860
+'Flat / Apartment',570,'Oxford Circus',153.508772,0.16,76860
+'Flat / Apartment',633,'Bond Street',118.483412,0.12,76860
+'Flat / Apartment',1925,'South Kensington',194.805195,0.25,23748
+'New development',739,'Finsbury Park',76.454668,0.86,33036
+House,1341,Angel,107.009694,0.23,31164
+'New development',1321,Angel,98.031794,0.43,31164
+'Flat / Apartment',822,Angel,59.002433,1.41,31164
+House,2281,Mortlake,103.024989,0.53,13728
+House,1805,Balham,74.792244,0.35,28092
+'New development',691,'Clapham Junction',78.871201,0.06,28092
+'New development',691,'Clapham Junction',92.619392,0.06,28092
+'New development',577,'Clapham Junction',94.454073,0.06,28092
+Penthouse,2120,'Putney Bridge',87.264151,2.07,28092
+'New development',1399,'Putney Bridge',104.360257,2.07,28092
+House,2266,'Barnes Bridge',97.087379,0.69,13728
+House,1782,Hammersmith,74.354658,0.7,22068
+'Flat / Apartment',1862,Vauxhall,190.655209,1.09,23748
+House,1271,Wimbledon,94.020456,0.8,28092
+House,2620,'Raynes Park',76.145038,0.46,28092
+House,1712,Wimbledon,92.581776,0.28,28092
+House,3924,'Raynes Park',68.679918,0.06,28092
+House,3067,Wimbledon,97.489403,0.23,28092
+House,2422,Tooting,77.415359,5.44,28092
+'Flat / Apartment',623,'St. Johns Wood',104.333868,0.4,76860
+'Flat / Apartment',513,'Aldgate East',108.966862,0.09,32976
+'Flat / Apartment',1441,Victoria,239.417071,1.32,23748
+'Flat / Apartment',1520,Victoria,13.157895,0.32,23748
+'Flat / Apartment',592,'Putney Bridge',71.790541,2.03,28092
+'Flat / Apartment',1040,'Wandsworth Town',67.307692,3.82,28092
+'Flat / Apartment',1163,'Oxford Circus',189.16595,0.85,76860
+House,1224,'Oxford Circus',142.973856,0.95,76860
+'Flat / Apartment',765,Victoria,189.542484,0.26,23748
+House,2216,Angel,157.942238,0.82,31164
+'Flat / Apartment',1032,Angel,89.631783,0.17,31164
+'Flat / Apartment',1623,Angel,113.986445,1.11,31164
+'Flat / Apartment',2039,Hampstead,112.555174,0.62,31164
+'Flat / Apartment',730,Hampstead,126.712329,0.42,31164
+House,3060,'Ealing Broadway',6.535948,0.53,32364
+House,1767,Mortlake,76.400679,0.3,13728
+'New development',1335,'Canary Wharf',106.217228,0.17,32976
+House,1685,'Chiswick Park',77.151335,0.08,27216
+House,2425,'Barnes Bridge',98.969072,1.7,13728
+'Flat / Apartment',853,'Imperial Wharf',96.717468,0.38,22068
+'Flat / Apartment',634,Hammersmith,100.157729,0.57,22068
+'Flat / Apartment',944,'West Kensington',99.04661,0.78,23748
+'New development',784,'Putney Bridge',92.47449,2.1,28092
+'Flat / Apartment',628,'Ladbroke Grove',214.968153,0.31,23748
+House,1746,Tooting,68.728522,5.5,28092
+'Flat / Apartment',599,'South Kensington',125.208681,0.28,23748
+'New development',566,Angel,88.339223,0.49,31164
+Penthouse,1226,Angel,67.292007,0.97,31164
+'Flat / Apartment',1386,'Imperial Wharf',70.34632,0.06,22068
+Studio,425,'Ealing Broadway',82.352941,0.4,32364
+'Flat / Apartment',703,'Earls Court',14.224751,0.42,23748
+'Flat / Apartment',1122,'Earls Court',133.244207,0.45,23748
+House,2667,Mortlake,88.113986,0.29,13728
+'Flat / Apartment',924,Tooting,73.051948,5.53,28092
+'Flat / Apartment',1025,Tooting,74.634146,5.5,28092
+Penthouse,3451,'Canary Wharf',85.482469,1.02,32976
+House,1710,'Chiswick Park',70.175439,0.35,27216
+House,1395,'Chiswick Park',89.605735,0.3,27216
+House,1889,'Chiswick Park',79.142403,0.19,27216
+House,2150,'Barnes Bridge',90.697674,0.65,13728
+'New development',590,'Shepherds Bush',133.050847,0.83,22068
+'Flat / Apartment',1641,'Clapham Junction',137.111517,0.87,28092
+House,2565,'Wandsworth Town',65.302144,3.92,28092
+House,1360,'Wandsworth Town',69.852941,0.52,28092
+Penthouse,2458,'Camden Town',80.349878,0.27,38568
+House,1986,'South Kensington',178.751259,0.42,23748
+'Flat / Apartment',539,Tooting,64.935065,5.47,28092
+'New development',1961,'Goodge Street',234.574197,0.19,38568
+'New development',824,Victoria,160.800971,0.3,23748
+'Flat / Apartment',981,'South Kensington',188.583078,0.35,23748
+House,1549,'Ealing Broadway',6.455778,1.36,32364
+'Flat / Apartment',1072,'West Brompton',18.656716,0.29,23748
+House,1760,Mortlake,68.181818,0.26,13728
+House,1668,Balham,70.443645,0.19,28092
+House,2177,Brixton,59.715204,0.45,34956
+House,4213,Streatham,83.076193,6.33,34956
+'Flat / Apartment',1035,Balham,77.294686,0.12,28092
+House,1615,'Chiswick Park',74.303406,0.16,27216
+House,3230,'Chiswick Park',102.012384,0.86,27216
+'Flat / Apartment',548,'Chiswick Park',77.554745,0.16,27216
+'New development',1091,'Putney Bridge',111.36572,2.07,28092
+House,1341,'West Brompton',137.956749,0.66,23748
+House,2652,'Barnes Bridge',85.784314,0.61,13728
+'Flat / Apartment',601,'Barnes Bridge',66.55574,0.76,13728
+'Flat / Apartment',1143,'Clapham Junction',69.991251,0.81,28092
+'Flat / Apartment',940,Vauxhall,74.468085,1.33,23748
+Duplex,1522,'Wandsworth Town',49.277267,3.48,28092
+'Flat / Apartment',561,'Old Street',89.12656,0.46,33036
+House,1726,Victoria,230.301275,0.66,23748
+House,1554,'Putney Bridge',70.720721,2.03,28092
+'Flat / Apartment',901,'Clapham Junction',94.339623,0.91,28092
+'Flat / Apartment',987,'Clapham Junction',70.4154,0.73,28092
+'Flat / Apartment',922,'Maida Vale',103.036876,0.18,23748
+'Flat / Apartment',520,Angel,70.192308,0.6,31164
+'Flat / Apartment',1218,Hampstead,98.522167,0.65,31164
+'Flat / Apartment',550,'Aldgate East',69.090909,1.2,32976
+House,3435,'West Dulwich',54.585153,0.12,28872
+'Flat / Apartment',771,'Canary Wharf',63.553826,0.76,32976
+House,2612,'Barnes Bridge',105.283308,1.28,13728
+'Flat / Apartment',460,'St. Johns Wood',97.826087,0.4,76860
+House,1224,'Wandsworth Town',67.401961,3.33,28092
+House,2205,'Putney Bridge',76.870748,2.09,28092
+'Flat / Apartment',548,'Putney Bridge',77.554745,2.07,28092
+'Flat / Apartment',896,'Camden Town',139.508929,0.53,38568
+House,2239,Paddington,167.485485,1.48,23748
+'New development',1263,'Mill Hill East',62.153603,0.94,31452
+'Flat / Apartment',891,'Old Street',75.757576,0.62,38568
+'Flat / Apartment',518,'Hackney Downs',89.76834,0.52,33036
+'Flat / Apartment',1023,Hampstead,131.964809,0.77,31164
+House,2458,'Imperial Wharf',101.708706,1.2,22068
+House,1112,Mortlake,84.982014,0.43,13728
+'Flat / Apartment',861,'Canary Wharf',84.204413,0.56,32976
+'Flat / Apartment',469,'Canary Wharf',69.296375,0.47,32976
+'Flat / Apartment',742,Farringdon,107.816712,0.67,24000
+'New development',476,Barbican,125,0.1,24000
+'Flat / Apartment',740,'Chiswick Park',57.432432,0.31,27216
+House,1380,'Barnes Bridge',90.57971,1.46,13728
+House,1959,'Barnes Bridge',107.19755,0.63,13728
+House,869,'Clapham Junction',100.690449,0.51,28092
+House,1238,'Clapham Junction',88.449111,0.46,28092
+Penthouse,1680,'Clapham Junction',88.988095,0.85,28092
+'Flat / Apartment',1221,Wimbledon,73.300573,0.25,28092
+'Flat / Apartment',1087,'Wandsworth Town',59.797608,3.28,28092
+'Flat / Apartment',1548,Victoria,226.098191,0.42,23748
+'Flat / Apartment',1559,'South Kensington',304.682489,0.73,23748
+'Flat / Apartment',690,'Clapham Common',79.710145,0.53,34956
+'New development',2174,'West Brompton',185.602576,0.85,23748
+'Flat / Apartment',933,'High Street Kensington',123.258307,0.32,23748
+House,1327,'High Street Kensington',177.091183,0.28,23748
+Penthouse,1010,'London Bridge',77.227723,0.6,35496
+House,3260,Streatham,48.92638,6.34,34956
+House,2456,Tooting,4.071661,5.45,28092
+House,953,Balham,89.192025,0.36,28092
+'Flat / Apartment',967,'Clapham Junction',64.632885,0.83,28092
+House,1457,'Clapham Junction',89.224434,0.61,28092
+House,2349,Victoria,125.585355,0.51,76860
+House,1184,Wimbledon,84.037162,0.8,28092
+House,1705,'Wandsworth Town',67.44868,3.65,28092
+'Flat / Apartment',814,'Wandsworth Town',85.995086,3.43,28092
+'Flat / Apartment',619,'Wandsworth Town',92.891761,3.69,28092
+House,1749,Homerton,95.769011,0.14,33036
+'Flat / Apartment',1607,'South Kensington',280.024891,0.43,23748
+'Flat / Apartment',992,Victoria,82.66129,1.1,23748
+'Flat / Apartment',774,'Putney Bridge',82.041344,2.15,28092
+House,3256,'Putney Bridge',61.271499,2.03,28092
+House,1868,Angel,101.445396,0.4,31164
+'Flat / Apartment',1026,'Canary Wharf',80.409357,0.44,32976
+'Flat / Apartment',767,Farringdon,114.080834,0.31,38568
+House,2108,'Barnes Bridge',103.178368,0.65,13728
+House,2332,'Barnes Bridge',96.483705,0.67,13728
+'Flat / Apartment',1100,'Clapham Junction',88.636364,0.96,28092
+House,2144,'Clapham Junction',80.923507,0.65,28092
+House,1335,Wimbledon,102.996255,0.17,28092
+House,1811,'Wandsworth Town',71.507454,3.3,28092
+'Flat / Apartment',693,'St. Johns Wood',126.262626,0.13,76860
+House,1873,'West Hampstead',104.111052,0.5,31164
+'Flat / Apartment',1366,Hampstead,94.802343,1.22,31164
+'Flat / Apartment',1672,'Bond Street',128.588517,0.1,76860
+'Flat / Apartment',548,'Goodge Street',145.985401,0.46,76860
+'Flat / Apartment',883,'Goodge Street',198.187995,0.43,38568
+'New development',847,'Clapham Junction',139.079103,1.4,28092
+'Flat / Apartment',1806,'High Street Kensington',119.047619,0.25,23748
+House,2132,Canonbury,88.883677,0.77,31164
+'Flat / Apartment',1355,Angel,88.560886,0.84,31164
+House,804,'Hackney Downs',90.174129,0.49,33036
+House,1069,Hampstead,102.899906,0.84,31164
+'New development',2258,Hanwell,4.428698,0.29,32364
+'New development',870,'Ealing Broadway',68.965517,0.9,32364
+'Flat / Apartment',537,'South Kensington',129.422719,0.37,23748
+House,1921,Balham,75.48152,0.24,28092
+House,1674,Balham,77.359618,0.16,28092
+'Flat / Apartment',1500,'South Kensington',173.333333,0.3,23748
+House,570,Wimbledon,105.263158,0.31,28092
+House,900,Wimbledon,99.444444,0.67,28092
+Penthouse,1112,Wimbledon,104.316547,0.63,28092
+'Flat / Apartment',622,'Wandsworth Town',80.385852,3.63,28092
+'Flat / Apartment',797,Homerton,78.419072,0.3,33036
+'Flat / Apartment',377,'St. Johns Wood',119.363395,0.19,76860
+'Flat / Apartment',649,Paddington,192.604006,0.99,23748
+'Flat / Apartment',1055,'Ladbroke Grove',156.398104,0.32,23748
+Penthouse,1575,'Ladbroke Grove',219.047619,0.24,23748
+'Flat / Apartment',1657,'Ladbroke Grove',179.54134,0.24,23748
+House,1266,'Oxford Circus',197.472354,0.33,76860
+'Flat / Apartment',1064,'South Kensington',202.067669,0.69,23748
+'Flat / Apartment',1053,Victoria,189.458689,0.64,23748
+'Flat / Apartment',1045,Victoria,162.679426,1.54,23748
+'Flat / Apartment',1722,'South Kensington',150.987224,0.21,23748
+'Flat / Apartment',905,'South Kensington',185.082873,0.68,23748
+'Flat / Apartment',776,Victoria,192.654639,2.09,23748
+'Flat / Apartment',1398,'South Kensington',207.081545,0.36,23748
+'Flat / Apartment',675,'South Kensington',214.814815,0.39,23748
+'Flat / Apartment',691,Victoria,115.050651,0.67,23748
+'Flat / Apartment',1522,'Ladbroke Grove',124.507227,0.64,23748
+'Flat / Apartment',1480,'High Street Kensington',125,0.29,23748
+'Flat / Apartment',1804,'High Street Kensington',194.013304,0.3,23748
+Studio,410,'High Street Kensington',109.756098,0.11,23748
+'Flat / Apartment',1850,'High Street Kensington',156.486486,0.36,23748
+'Flat / Apartment',1317,'High Street Kensington',94.91268,0.27,23748
+'Flat / Apartment',2713,'High Street Kensington',156.653151,0.33,23748
+'Flat / Apartment',1162,'High Street Kensington',111.876076,0.35,23748
+'Flat / Apartment',793,'High Street Kensington',148.171501,0.27,23748
+Penthouse,1894,'High Street Kensington',234.952482,0.22,23748
+'Flat / Apartment',923,'High Street Kensington',167.930661,0.09,23748
+'Flat / Apartment',914,'High Street Kensington',142.231947,0.25,23748
+House,1899,Mortlake,76.355977,0.27,13728
+House,1503,Balham,78.176979,0.32,28092
+'New development',823,'Putney Bridge',96.597813,2.07,28092
+House,3104,'West Brompton',153.028351,0.59,23748
+'Flat / Apartment',743,Hammersmith,87.483176,0.55,22068
+House,1167,'Clapham Junction',72.836332,0.58,28092
+'Flat / Apartment',779,'Clapham Junction',71.887035,0.44,28092
+House,960,'Clapham Junction',94.791667,0.75,28092
+'Flat / Apartment',621,Wimbledon,644.041868,0.69,28092
+'Flat / Apartment',592,Wimbledon,78.547297,0.69,28092
+House,2352,'Wandsworth Town',65.263605,3.56,28092
+'Flat / Apartment',1702,'Putney Bridge',76.086957,2.13,28092
+'Flat / Apartment',947,'Putney Bridge',87.117212,2.06,28092
+'Flat / Apartment',879,'Camden Town',135.949943,0.66,38568
+'Flat / Apartment',1061,'Camden Town',117.813384,0.67,38568
+'Flat / Apartment',1225,Hampstead,110.204082,1.1,31164
+'New development',542,'Clapham Common',101.476015,0.32,34956
+'Flat / Apartment',677,'Russell Square',145.49483,0.38,38568
+'Flat / Apartment',482,Canonbury,109.958506,0.39,31164
+House,2968,Angel,141.509434,0.93,31164
+House,1340,Angel,102.61194,1.15,31164
+'Flat / Apartment',707,'Hackney Downs',81.329562,0.13,33036
+House,2740,Highgate,107.664234,0.26,29436
+House,3156,'Imperial Wharf',102.978454,1.24,22068
+House,1989,Streatham,45.248869,6.35,34956
+'Flat / Apartment',517,'Royal Victoria',58.027079,1.07,22431
+'New development',577,'Clapham Junction',88.388215,0.06,28092
+'Flat / Apartment',302,'Imperial Wharf',115.89404,1.02,22068
+'Flat / Apartment',981,'West Kensington',89.194699,0.39,23748
+House,2642,'Putney Bridge',41.445874,2.03,28092
+House,3256,Wimbledon,102.886978,0.25,28092
+House,1723,'Wandsworth Town',78.351712,3.49,28092
+'Flat / Apartment',817,'Camden Town',116.27907,0.55,38568
+'Flat / Apartment',1013,'Clapham Junction',96.248766,0.96,28092
+House,2530,'South Kensington',156.126482,0.21,23748
+'Flat / Apartment',650,'Caledonian Road & Barnsbury',73.076923,1.22,31164
+'Flat / Apartment',881,'Hackney Downs',66.401816,0.94,33036
+House,2223,Cricklewood,78.722447,0.75,31452
+House,1258,'Acton Central',75.516693,0.56,27264
+'Flat / Apartment',683,'London Bridge',133.235725,0.84,35496
+'Flat / Apartment',758,'Imperial Wharf',92.348285,0.83,22068
+House,1419,Hammersmith,89.852008,0.63,22068
+'Flat / Apartment',549,Wimbledon,77.413479,0.81,28092
+House,2432,'St. Johns Wood',12.335526,0.13,76860
+'Flat / Apartment',990,'Putney Bridge',78.282828,2.04,28092
+House,2088,'Clapham Junction',88.601533,0.61,28092
+'New development',560,'Imperial Wharf',115.892857,1.05,22068
+'Flat / Apartment',806,'Finsbury Park',496.215881,0.6,33036
+'Flat / Apartment',527,Angel,94.87666,0.48,31164
+House,1705,'Hackney Downs',63.636364,0.3,33036
+House,1679,'Imperial Wharf',94.997022,0.2,22068
+House,2084,Balham,71.976967,0.23,28092
+House,4050,Streatham,69.135802,6.33,34956
+House,2685,'Shepherds Bush',100.558659,1.39,22068
+House,1301,'Chiswick Park',88.393543,1.17,27216
+House,2406,'Barnes Bridge',102.86783,1.25,13728
+'Flat / Apartment',1181,Victoria,249.788315,1.26,23748
+'Flat / Apartment',683,'Clapham Junction',87.115666,0.72,28092
+House,1892,'Clapham Junction',79.016913,0.66,28092
+'Flat / Apartment',693,'Maida Vale',90.18759,0.39,23748
+House,2048,'Hackney Downs',80.566406,0.35,33036
+'New development',666,'West Ealing',78.828829,0.07,32364
+'Flat / Apartment',992,'Clapham Common',80.645161,0.13,34956
+House,1716,Tooting,57.983683,5.41,28092
+House,634,'Latimer Road',122.239748,0.49,23748
+House,2287,'Wandsworth Town',69.74202,3.5,28092
+'Flat / Apartment',1438,'Wandsworth Town',104.311544,3.37,28092
+'Flat / Apartment',1550,Victoria,241.935484,1.15,23748
+'Flat / Apartment',1039,'Wandsworth Town',86.14052,3.33,28092
+Duplex,890,'Clapham Junction',73.033708,0.27,28092
+House,1918,'Clapham Common',72.732013,0.25,34956
+'New development',547,'West Hampstead',100.548446,1.09,31164
+House,1378,Angel,112.481858,1.38,31164
+'Flat / Apartment',1752,Hampstead,162.671233,1.07,31164
+'Flat / Apartment',2557,'Imperial Wharf',87.993743,0.71,22068
+'New development',807,'Ealing Broadway',73.729864,0.9,32364
+House,1758,Mortlake,69.681456,0.47,13728
+'Flat / Apartment',2264,'Canary Wharf',59.628975,0.66,32976
+'New development',773,Bromley-by-Bow,70.504528,0.3,32976
+House,1668,'Acton Central',71.642686,0.53,27264
+'Flat / Apartment',1030,'London Bridge',130.582524,1.7,35496
+'Flat / Apartment',1145,Vauxhall,122.270742,1.09,23748
+'Flat / Apartment',1232,'London Bridge',142.045455,1.99,35496
+House,1844,'Camden Town',127.440347,0.89,38568
+'Flat / Apartment',1142,'St. Johns Wood',94.1331,0.11,76860
+House,1637,'Clapham Junction',82.467929,0.91,28092
+'Flat / Apartment',1348,'Bond Street',166.913947,0.38,76860
+House,1761,Canonbury,80.919932,1.14,31164
+'Flat / Apartment',527,Angel,82.542694,1.2,31164
+House,3300,Cricklewood,89.393939,0.98,31452
+'New development',904,'Ealing Broadway',71.349558,0.9,32364
+House,2413,Balham,103.60547,0.23,28092
+House,1585,Balham,75.709779,0.16,28092
+House,1891,'Barnes Bridge',92.543628,0.98,13728
+'Flat / Apartment',924,'Imperial Wharf',78.463203,0.17,22068
+House,780,'Clapham Junction',108.974359,0.77,28092
+House,2600,Wimbledon,86.5,0.76,28092
+'Flat / Apartment',598,'Wandsworth Town',79.431438,3.45,28092
+'New development',558,'Wandsworth Town',94.086022,3.47,28092
+'Flat / Apartment',400,Homerton,92.5,0.14,33036
+'Flat / Apartment',2132,'Aldgate East',117.260788,0.44,32976
+House,2046,'Clapham Junction',77.956989,0.48,28092
+'Flat / Apartment',764,'Maida Vale',93.586387,0.36,23748
+'Flat / Apartment',978,'Maida Vale',100.715746,0.19,23748
+Penthouse,1518,'Goodge Street',319.499341,0.31,38568
+'Flat / Apartment',420,'Acton Central',83.333333,0.62,27264
+House,3467,Mortlake,93.740986,0.25,13728
+'New development',1236,'Tower Gateway',175.242718,0.41,24000
+'New development',577,'Clapham Junction',83.188908,0.06,28092
+'Flat / Apartment',869,'West Kensington',94.936709,0.68,23748
+'New development',2768,'Clapham Junction',106.575145,0.86,28092
+'Flat / Apartment',784,Wimbledon,74.617347,0.54,28092
+House,2041,'South Kensington',145.761881,0.31,23748
+'New development',982,'Clapham Common',91.547862,0.49,34956
+House,2401,'High Street Kensington',145.772595,0.15,23748
+'Flat / Apartment',736,'Hackney Downs',74.728261,1.01,33036
+House,1595,Balham,83.0721,0.15,28092
+House,2850,Balham,84.210526,0.41,28092
+House,3525,Tooting,70.921986,5.59,28092
+'Flat / Apartment',1302,'Canary Wharf',88.325653,1.02,32976
+'New development',1023,'Royal Victoria',53.763441,2.48,22431
+'Flat / Apartment',753,'Old Street',91.633466,0.46,38568
+'Flat / Apartment',949,'Liverpool Street',123.814542,0.33,33036
+House,2222,'Chiswick Park',9.0009,0.39,27216
+House,1223,'Clapham Junction',73.589534,0.66,28092
+House,1061,'Clapham Junction',82.469369,0.56,28092
+House,1938,Homerton,87.4613,0.24,33036
+'Flat / Apartment',960,'St. Johns Wood',88.020833,0.24,76860
+House,1213,'Bethnal Green',70.074196,0.88,32976
+'Flat / Apartment',1509,Victoria,215.37442,1.26,23748
+'Flat / Apartment',1239,'Camden Town',141.242938,0.6,38568
+'New development',562,'West Hampstead',97.864769,1.07,31164
+'Flat / Apartment',1309,'Oxford Circus',80.213904,0.33,76860
+'Flat / Apartment',945,'Bond Street',115.873016,0.07,76860
+'Flat / Apartment',985,Hampstead,111.675127,0.35,31164
+'Flat / Apartment',2427,Hampstead,12.360939,0.42,31164
+House,2416,'Imperial Wharf',88.990066,0.87,22068
+House,2129,Mortlake,84.546736,0.3,13728
+House,1248,Mortlake,103.766026,0.36,13728
+House,2137,Tooting,52.643893,5.4,28092
+House,1556,Balham,65.874036,0.24,28092
+House,2346,Tooting,71.398124,5.57,28092
+House,3251,Hammersmith,84.589357,0.5,22068
+'Flat / Apartment',670,'West Brompton',74.626866,0.47,23748
+House,2638,'West Kensington',95.526914,0.29,23748
+'Flat / Apartment',1023,'West Kensington',84.55523,0.36,23748
+'Flat / Apartment',875,'Clapham Junction',80,1.22,28092
+House,1295,'Clapham Junction',104.247104,0.62,28092
+'Flat / Apartment',1215,Victoria,283.950617,0.77,76860
+'Flat / Apartment',1066,'Wandsworth Town',72.701689,3.28,28092
+House,1697,'Wandsworth Town',70.418385,3.86,28092
+Penthouse,1200,Homerton,60.416667,0.2,33036
+'Flat / Apartment',606,'Old Street',115.511551,0.6,38568
+'Flat / Apartment',796,'Old Street',87.311558,0.44,38568
+'Flat / Apartment',827,Moorgate,157.073761,0.13,24000
+House,1894,'Putney Bridge',77.877508,2.13,28092
+House,3336,'Putney Bridge',88.429257,2.06,28092
+'Flat / Apartment',570,Balham,78.947368,0.22,28092
+'Flat / Apartment',672,'Clapham Junction',81.845238,0.53,28092
+'Flat / Apartment',1297,'Piccadilly Circus',173.477255,0.21,76860
+'Flat / Apartment',667,Canonbury,97.451274,0.93,31164
+House,900,'Imperial Wharf',94.444444,0.66,22068
+'Flat / Apartment',1027,'Imperial Wharf',80.331061,0.54,22068
+House,1678,'Imperial Wharf',110.250298,1.18,22068
+'Flat / Apartment',1390,'Imperial Wharf',125.899281,0.44,22068
+House,3100,'Imperial Wharf',101.612903,0.26,22068
+'Flat / Apartment',752,'South Kensington',158.909574,0.37,23748
+'Flat / Apartment',973,'Tower Gateway',97.636177,0.85,32976
+'New development',817,'Imperial Wharf',128.518972,1.05,22068
+'New development',4453,'Raynes Park',87.469122,0.18,28092
+'Flat / Apartment',502,'St. Johns Wood',84.661355,0.46,76860
+'Flat / Apartment',670,'Putney Bridge',65.522388,2.03,28092
+House,2742,Paddington,164.113786,1.54,23748
+House,1327,Canonbury,113.036925,0.74,31164
+'Flat / Apartment',513,Angel,121.832359,0.29,31164
+'Flat / Apartment',565,Angel,76.99115,1.25,31164
+'Flat / Apartment',743,'Gospel Oak',114.401077,0.46,31164
+House,3125,'Clapham Common',86.24,0.27,34956
+House,2389,'Chiswick Park',94.181666,0.83,27216
+House,2033,'Chiswick Park',83.620266,0.54,27216
+House,2160,'South Kensington',159.722222,0.4,23748
+House,3098,'Barnes Bridge',104.906391,1.34,13728
+'Flat / Apartment',650,Hammersmith,100,0.74,22068
+'Flat / Apartment',981,'Shepherds Bush',142.201835,0.83,22068
+'Flat / Apartment',705,'Wandsworth Town',67.375887,3.59,28092
+House,1810,'Putney Bridge',69.060773,2.09,28092
+House,1468,'Putney Bridge',78.337875,2.12,28092
+'Flat / Apartment',815,'Wandsworth Town',85.276074,3.82,28092
+House,2325,'Clapham Junction',90.322581,0.96,28092
+'Flat / Apartment',838,'Clapham Common',89.498807,0.15,34956
+House,1456,'Clapham Junction',96.085165,0.45,28092
+Penthouse,1774,'Goodge Street',267.756483,0.18,38568
+House,1969,Angel,115.540884,0.77,31164
+House,2707,Mortlake,73.69782,0.41,13728
+House,1109,Mortlake,81.064022,0.5,13728
+House,2050,Mortlake,76.829268,0.45,13728
+'Flat / Apartment',655,'Tower Gateway',129.770992,0.25,32976
+House,1683,Balham,74.272133,0.26,28092
+House,3391,Hammersmith,110.586848,0.99,22068
+House,1423,'Chiswick Park',69.922699,1.18,27216
+House,1163,'Chiswick Park',73.086844,0.25,27216
+'Flat / Apartment',1898,'West Brompton',126.448894,0.65,23748
+House,1334,Tooting,65.592204,5.39,28092
+'Flat / Apartment',602,'St. Johns Wood',112.126246,0.37,76860
+'Flat / Apartment',953,'Camden Town',77.124869,0.31,38568
+'Flat / Apartment',1082,'Clapham Common',85.489834,0.15,34956
+House,2547,Cricklewood,51.04044,0.57,31452
+House,2212,Angel,108.273056,0.64,31164
+'Flat / Apartment',675,Angel,74.074074,0.97,31164
+House,2241,Angel,113.788487,1.12,31164
+'New development',721,'Hackney Central',83.217753,1.16,33036
+'Flat / Apartment',702,'Hackney Downs',84.045584,0.88,33036
+House,674,Angel,81.602374,1.44,31164
+House,1716,'Imperial Wharf',96.153846,0.11,22068
+House,1700,'West Ealing',73.529412,0.71,32364
+'Flat / Apartment',830,'Aldgate East',72.168675,0.44,32976
+House,1800,Balham,73.611111,0.22,28092
+'Flat / Apartment',1862,'Raynes Park',72.502685,0.66,28092
+House,1681,Wimbledon,72.87329,0.69,28092
+'Flat / Apartment',779,Wimbledon,83.440308,0.54,28092
+House,2607,'St. Johns Wood',172.420407,0.37,76860
+'Flat / Apartment',461,'Putney Bridge',100.867679,2.1,28092
+'Flat / Apartment',1155,'Clapham Junction',90.909091,0.34,28092
+'Flat / Apartment',684,'Clapham Junction',95.02924,0.42,28092
+'Flat / Apartment',928,'Clapham Junction',83.512931,0.38,28092
+'Flat / Apartment',676,Angel,92.455621,1.1,31164
+'Flat / Apartment',1405,Hampstead,128.113879,0.36,31164
+'Flat / Apartment',1368,Balham,56.652047,0.32,28092
+'New development',2875,'Chiswick Park',71.304348,1.26,27216
+'Flat / Apartment',936,'Barnes Bridge',82.799145,1.62,13728
+'Flat / Apartment',1258,Tooting,70.349762,5.47,28092
+House,2803,'Clapham Junction',85.622547,0.86,28092
+House,1388,Wimbledon,59.43804,0.35,28092
+House,1566,'Wandsworth Town',71.83908,3.88,28092
+House,1306,'Wandsworth Town',7.656968,3.27,28092
+'Flat / Apartment',670,'St. Johns Wood',52.238806,0.64,76860
+House,1831,'Ladbroke Grove',196.613872,0.19,23748
+House,2202,'Clapham Junction',93.097184,0.98,28092
+Duplex,992,'Clapham Junction',77.116935,0.32,28092
+'Flat / Apartment',1101,'Maida Vale',152.134423,0.27,23748
+'Flat / Apartment',1002,'Oxford Circus',137.225549,0.71,76860
+Mews,993,'Oxford Circus',135.951662,0.3,76860
+House,2285,'High Street Kensington',168.490153,0.15,23748
+House,2537,Angel,98.541585,0.78,31164
+House,4653,Highgate,99.935525,0.74,29436
+'Flat / Apartment',1902,'Earls Court',197.160883,0.38,23748
+House,1338,Mortlake,78.475336,0.56,13728
+House,2200,'Aldgate East',80.681818,0.46,32976
+'New development',773,Bromley-by-Bow,71.151358,0.3,32976
+House,2953,'Chiswick Park',91.432442,0.75,27216
+'Flat / Apartment',580,'Chiswick Park',689.568966,0.67,27216
+'New development',545,'Putney Bridge',109.174312,2.07,28092
+House,2988,'West Brompton',107.095047,0.53,23748
+'Flat / Apartment',778,Kennington,86.760925,0.56,35496
+'New development',864,Wimbledon,88.541667,0.14,28092
+'Flat / Apartment',1428,'Wandsworth Town',56.022409,1.24,28092
+'Flat / Apartment',651,'St. Johns Wood',128.264209,0.39,76860
+'Flat / Apartment',1160,'Goodge Street',206.465517,0.43,38568
+House,1738,'Oxford Circus',186.996548,0.15,76860
+'New development',1451,'West Brompton',206.064783,0.85,23748
+House,4225,Mortlake,42.60355,0.39,13728
+House,2800,Mortlake,82.142857,0.53,13728
+'New development',429,'Canary Wharf',133.566434,0.17,32976
+'Flat / Apartment',704,'Chancery Lane',118.607955,0.3,38568
+House,2354,'Chiswick Park',93.457944,0.47,27216
+'Flat / Apartment',680,'West Kensington',102.941176,0.35,23748
+'Flat / Apartment',1711,Westminster,162.185856,0.36,76860
+'Flat / Apartment',1076,Wimbledon,69.702602,0.46,28092
+House,1538,'Wandsworth Town',77.698309,1.3,28092
+House,2173,'Wandsworth Town',65.577543,3.74,28092
+'Flat / Apartment',420,Homerton,90.47619,0.12,33036
+House,2149,'Putney Bridge',9.306654,2.04,28092
+House,1875,Tooting,79.466667,5.46,28092
+House,2364,'Clapham Junction',74.027073,0.91,28092
+'New development',818,Hornsey,86.797066,0.37,29436
+'New development',810,'Imperial Wharf',112.962963,1.05,22068
+House,2078,Angel,9.624639,0.35,31164
+'Flat / Apartment',495,Angel,85.858586,0.65,31164
+'Flat / Apartment',1186,Hampstead,88.532884,0.5,31164
+House,1906,'Imperial Wharf',60.335782,1.07,22068
+House,2100,Mortlake,86.904762,0.33,13728
+House,1795,Balham,73.816156,0.29,28092
+House,1950,Balham,74.358974,0.08,28092
+House,1112,Balham,80.485612,0.45,28092
+'Flat / Apartment',853,'Chiswick Park',64.478312,0.88,27216
+'Flat / Apartment',500,'West Brompton',110,0.67,23748
+House,1261,'Barnes Bridge',83.267248,0.53,13728
+House,2637,'Barnes Bridge',104.285173,1.68,13728
+House,2061,'Clapham Junction',86.608443,0.89,28092
+Studio,332,Westminster,135.542169,0.37,76860
+'Flat / Apartment',515,Wimbledon,72.815534,0.61,28092
+'New development',1688,'Imperial Wharf',11.848341,1.05,22068
+House,1828,Angel,87.253829,0.8,31164
+'Flat / Apartment',780,'West Hampstead',76.923077,0.51,31164
+House,1310,Balham,75.954198,0.29,28092
+House,1355,'Acton Central',77.490775,0.39,27264
+'Flat / Apartment',990,'West Brompton',139.89899,0.59,23748
+'Flat / Apartment',1106,'Raynes Park',58.770344,0.51,28092
+'Flat / Apartment',525,'Wandsworth Town',71.428571,0.44,28092
+House,1168,'Putney Bridge',76.969178,2.04,28092
+House,1055,'Putney Bridge',94.312796,2.11,28092
+House,2368,'Putney Bridge',71.579392,2.05,28092
+'Flat / Apartment',815,'Putney Bridge',60.736196,2.14,28092
+'Flat / Apartment',665,Hampstead,116.541353,1.35,31164
+'Flat / Apartment',1582,'Clapham Common',72.692794,0.49,34956
+House,4102,Highgate,107.264749,0.66,29436
+House,2362,'Gospel Oak',97.375106,0.89,31164
+'New development',983,'Ealing Broadway',78.840285,0.65,32364
+'Flat / Apartment',676,'Earls Court',92.455621,0.56,23748
+House,1496,Mortlake,86.898396,0.24,13728
+House,540,'Peckham Rye',97.222222,0.11,35496
+'New development',581,'Chiswick Park',90.361446,1.26,27216
+House,1648,'Imperial Wharf',100.121359,0.1,22068
+'Flat / Apartment',936,'Raynes Park',67.84188,0.24,28092
+House,1884,Wimbledon,82.271762,0.8,28092
+Penthouse,1190,'Wandsworth Town',8.403361,0.98,28092
+'Flat / Apartment',779,'Bond Street',170.089859,0.12,76860
+'Flat / Apartment',1023,Angel,92.864125,0.89,31164
+House,1580,'Ealing Broadway',72.78481,1.45,32364
+'New development',989,'Ealing Broadway',80.384226,0.65,32364
+'Flat / Apartment',911,'West Brompton',126.234907,0.32,23748
+House,2000,Balham,72.5,0.32,28092
+House,2328,Brixton,66.580756,0.45,34956
+Penthouse,1127,'Royal Victoria',64.773736,2.48,22431
+House,1010,'Clapham Junction',85.148515,0.51,28092
+'Flat / Apartment',960,Victoria,130.208333,0.39,76860
+House,1940,'Putney Bridge',66.752577,2.1,28092
+'Flat / Apartment',1452,'Putney Bridge',40.977961,2.03,28092
+House,1875,'Clapham Junction',85.333333,0.91,28092
+'New development',2694,'Goodge Street',148.292502,0.43,38568
+House,2011,Hampstead,14.917951,0.57,31164
+House,2907,'Imperial Wharf',85.999312,0.31,22068
+House,1263,Mortlake,93.032462,0.24,13728
+House,2360,'Clapham Junction',88.983051,1.15,28092
+'Flat / Apartment',1181,'Clapham Junction',63.082134,0.69,28092
+'Flat / Apartment',468,Victoria,119.65812,0.44,23748
+House,3831,Wimbledon,63.951971,0.31,28092
+House,4569,'Raynes Park',50.22981,0.51,28092
+House,2443,Wimbledon,98.035203,0.74,28092
+Penthouse,1600,'Aldgate East',78.125,0.36,32976
+'Flat / Apartment',1254,'Hackney Downs',67.783094,0.6,33036
+House,1522,'South Kensington',195.466491,0.49,23748
+House,2472,'Putney Bridge',32.160194,2.03,28092
+House,1297,'Wandsworth Town',64.379337,3.33,28092
+House,3709,'Wandsworth Town',94.365058,0.91,28092
+House,4095,'Wandsworth Town',85.470085,0.91,28092
+'Flat / Apartment',833,'Clapham Junction',87.635054,0.75,28092
+House,1643,'South Kensington',234.32745,0.6,23748
+House,1298,Angel,92.449923,0.23,31164
+House,1206,Angel,87.064677,0.29,31164
+'Flat / Apartment',794,'Caledonian Road & Barnsbury',62.972292,0.47,31164
+'Flat / Apartment',1034,Angel,55.609284,1.52,31164
+'Flat / Apartment',741,'Caledonian Road & Barnsbury',77.597841,1.02,31164
+'Flat / Apartment',759,Angel,592.819499,0.99,31164
+House,2311,Angel,114.668974,0.21,31164
+'Flat / Apartment',492,'Caledonian Road & Barnsbury',101.626016,0.49,31164
+House,1248,Canonbury,84.134615,0.69,31164
+'Flat / Apartment',640,Angel,98.28125,0.52,31164
+House,2099,'Imperial Wharf',80.514531,0.77,22068
+Studio,297,'Earls Court',129.62963,0.49,23748
+'Flat / Apartment',963,'South Kensington',150.571132,0.38,23748
+'Flat / Apartment',1189,'London Bridge',147.182506,0.61,35496
+Studio,680,'Tower Gateway',66.176471,0.87,32976
+'New development',1023,'Royal Victoria',56.207234,2.48,22431
+'New development',558,'Chiswick Park',103.046595,1.26,27216
+'Flat / Apartment',786,'Barnes Bridge',61.704835,1.01,13728
+'New development',678,Chingford,51.622419,0.49,24888
+'Flat / Apartment',564,'West Kensington',88.652482,0.67,23748
+House,1981,Tooting,73.195356,5.44,28092
+House,2188,Victoria,91.179159,0.45,76860
+House,1962,'Wandsworth Town',63.710499,3.52,28092
+House,2266,'Wandsworth Town',77.228597,3.73,28092
+House,2485,'Wandsworth Town',67.404427,3.76,28092
+House,1958,Homerton,86.823289,0.14,33036
+House,2565,'Putney Bridge',81.871345,2.03,28092
+'Flat / Apartment',836,'Oxford Circus',119.019139,0.66,76860
+'Flat / Apartment',439,Angel,99.088838,0.83,31164
+'Flat / Apartment',793,Angel,71.248424,0.53,31164
+Mews,1568,Hampstead,92.47449,0.91,31164
+'New development',1446,'Tower Gateway',207.123098,0.41,24000
+'New development',1163,'Tower Gateway',214.531384,0.41,24000
+House,2599,'Clapham Junction',117.352828,1.07,28092
+House,1669,'Wandsworth Town',86.87837,3.78,28092
+House,2136,'Wandsworth Town',67.883895,3.61,28092
+House,2270,'Putney Bridge',72.687225,2.04,28092
+'New development',1693,'Imperial Wharf',11.813349,1.05,22068
+'Flat / Apartment',1003,Angel,89.631107,1.22,31164
+'Flat / Apartment',1351,'Imperial Wharf',103.552924,0.66,22068
+'Flat / Apartment',1253,'Imperial Wharf',99.760575,0.74,22068
+House,1018,Mortlake,78.585462,0.39,13728
+House,4056,Tooting,67.800789,5.59,28092
+'Flat / Apartment',877,Streatham,74.116306,6.34,34956
+'New development',695,Bromley-by-Bow,70.503597,0.34,32976
+House,2607,'Shepherds Bush',101.649405,0.52,22068
+House,3797,Wimbledon,70.977087,0.68,28092
+House,2503,'Wandsworth Town',75.709149,3.67,28092
+'Flat / Apartment',1236,'Wandsworth Town',88.996764,3.45,28092
+'Flat / Apartment',729,'Wandsworth Town',73.388203,0.44,28092
+'Flat / Apartment',849,'Wandsworth Town',64.782097,0.44,28092
+'Flat / Apartment',875,Hampstead,95.428571,0.99,31164
+'Flat / Apartment',1438,'Goodge Street',131.78025,0.1,38568
+House,1889,'High Street Kensington',174.695606,0.31,23748
+'New development',930,Homerton,66.666667,0.35,33036
+'New development',832,Homerton,69.711538,0.35,33036
+'New development',840,Homerton,70.238095,0.35,33036
+House,1163,'Imperial Wharf',105.33104,0.13,22068
+House,1389,'Acton Central',61.195104,0.44,27264
+House,2441,'Acton Central',56.329373,0.58,27264
+House,2766,'Acton Central',66.883586,0.47,27264
+'New development',904,'Ealing Broadway',69.690265,0.9,32364
+'New development',776,'Ealing Broadway',83.762887,0.65,32364
+'Flat / Apartment',531,Farringdon,122.410546,0.31,38568
+'Flat / Apartment',939,'Old Street',101.171459,0.69,38568
+House,1705,'Shepherds Bush',99.41349,1.32,22068
+House,1098,'Shepherds Bush',71.493625,1.09,22068
+House,2028,Wimbledon,71.499014,0.39,28092
+House,2336,Wimbledon,76.840753,0.7,28092
+'Flat / Apartment',1677,'St. Johns Wood',172.927847,0.66,76860
+House,3235,'Putney Bridge',52.395672,2.05,28092
+'Flat / Apartment',983,'Wandsworth Town',58.494405,0.44,28092
+'Flat / Apartment',942,'Clapham Junction',67.409766,0.42,28092
+'New development',1688,'Imperial Wharf',124.407583,1.05,22068
+House,2150,'Ealing Broadway',55.581395,0.96,32364
+'Flat / Apartment',1134,'West Brompton',154.320988,0.26,23748
+'Flat / Apartment',637,Brixton,74.568289,0.61,34956
+House,1823,Tooting,65.551289,5.48,28092
+House,1449,Balham,75.914424,0.32,28092
+House,2563,Balham,79.984393,0.19,28092
+House,2337,Streatham,52.417629,6.36,36132
+'Flat / Apartment',620,Tooting,68.548387,5.52,28092
+House,800,Streatham,48.125,6.36,36132
+'Flat / Apartment',771,Streatham,51.232166,6.34,34956
+'Flat / Apartment',771,'Clapham Junction',68.093385,0.44,28092
+'Flat / Apartment',2339,Victoria,117.571612,0.45,76860
+House,2358,'Putney Bridge',59.160305,2.05,28092
+'Flat / Apartment',1156,'Oxford Circus',172.577855,0.76,76860
+'New development',1462,'Imperial Wharf',126.538988,1.05,22068
+House,2561,Balham,62.475595,0.31,28092
+'New development',1008,'Tower Gateway',250.396825,0.41,24000
+'New development',798,'Putney Bridge',97.744361,2.07,28092
+'New development',2899,'Chiswick Park',76.750604,1.26,27216
+'New development',581,'Chiswick Park',94.664372,1.26,27216
+'Flat / Apartment',2245,'West Brompton',207.126949,0.6,23748
+House,2894,'Barnes Bridge',108.845888,1.72,13728
+House,1179,'Clapham Junction',79.304495,0.66,28092
+'Flat / Apartment',613,'Clapham Junction',101.957586,0.81,28092
+'Flat / Apartment',1077,'Goodge Street',185.236769,0.28,38568
+'Flat / Apartment',399,Angel,137.844612,0.5,31164
+House,3318,'East Finchley',78.360458,0.15,31452
+House,2087,'Imperial Wharf',103.018687,0.81,22068
+House,2001,Mortlake,89.955022,0.32,13728
+House,2390,Tooting,58.368201,5.43,28092
+House,1370,'Imperial Wharf',80.291971,0.2,22068
+'Flat / Apartment',693,'West Kensington',101.010101,0.39,23748
+House,1743,'Wandsworth Town',68.846816,3.85,28092
+House,2591,'Wandsworth Town',82.014666,3.8,28092
+'New development',1063,'Imperial Wharf',134.054563,1.05,22068
+'New development',1727,Hampstead,153.445281,1.07,31164
+'New development',870,'West Hampstead',89.08046,0.42,31164
+House,1980,Balham,71.969697,0.3,28092
+House,1727,Tooting,65.141865,5.51,28092
+House,1407,Tooting,63.610519,5.64,28092
+'Flat / Apartment',884,Streatham,73.529412,6.34,34956
+House,1873,Balham,69.140416,0.37,28092
+'Flat / Apartment',1527,'West Brompton',137.524558,0.54,23748
+House,2006,'Clapham Junction',87.238285,0.71,28092
+'Flat / Apartment',807,'Clapham Junction',86.741016,0.49,28092
+'Flat / Apartment',1669,Westminster,134.811264,0.33,76860
+'Flat / Apartment',1171,Wimbledon,64.047822,0.2,28092
+'Flat / Apartment',976,Wimbledon,66.598361,0.51,28092
+House,1968,'Wandsworth Town',65.294715,3.77,28092
+'Flat / Apartment',692,'Wandsworth Town',86.705202,3.65,28092
+'Flat / Apartment',812,'St. Johns Wood',122.536946,0.21,76860
+'Flat / Apartment',533,'Wandsworth Town',84.427767,0.96,28092
+'New development',1150,'Bond Street',343.478261,0.09,76860
+'New development',784,Canonbury,73.341837,0.99,31164
+House,1406,'Imperial Wharf',99.573257,0.11,22068
+'Flat / Apartment',398,'Ealing Broadway',1004.899497,1.05,32364
+'Flat / Apartment',970,'Tower Gateway',69.587629,0.51,32976
+'New development',901,'Wandsworth Town',99.889012,3.39,28092
+'Flat / Apartment',1155,Wimbledon,72.294372,0.19,28092
+'Flat / Apartment',815,Wimbledon,92.02454,0.23,28092
+'Flat / Apartment',761,'Wandsworth Town',86.070959,3.32,28092
+'Flat / Apartment',1041,'St. Johns Wood',95.581172,0.3,76860
+'Flat / Apartment',757,Angel,89.167768,1.15,31164
+'Flat / Apartment',946,'Clapham Junction',66.067653,0.31,28092
+'Flat / Apartment',666,'Maida Vale',119.369369,0.08,23748
+'Flat / Apartment',813,Angel,102.091021,0.96,31164
+'Flat / Apartment',758,Angel,65.30343,0.63,31164
+House,1636,'Imperial Wharf',82.518337,0.67,22068
+'Flat / Apartment',764,'Ealing Broadway',52.356021,0.28,32364
+'Flat / Apartment',559,'West Brompton',154.740608,0.22,23748
+House,1345,Mortlake,81.784387,0.51,13728
+House,2176,Balham,57.444853,0.65,28092
+'New development',1847,'Tower Gateway',239.090417,0.41,24000
+'Flat / Apartment',1575,Victoria,126.666667,1.32,23748
+'Flat / Apartment',694,'Clapham Junction',90.057637,0.52,28092
+'Flat / Apartment',642,Angel,88.785047,0.61,31164
+'Flat / Apartment',595,'Dalston Junction',75.630252,0.69,33036
+'Flat / Apartment',1042,Hampstead,66.698656,0.92,31164
+House,1791,Mortlake,76.772753,0.27,13728
+House,2302,Tooting,67.332754,5.56,28092
+House,1929,'Chiswick Park',111.456713,0.27,27216
+'Flat / Apartment',1660,'Clapham Junction',105.421687,1.09,28092
+House,1685,'Wandsworth Town',65.281899,3.49,28092
+'Flat / Apartment',1172,'Gospel Oak',84.897611,0.92,31164
+'Flat / Apartment',650,'Wandsworth Town',73.076923,3.59,28092
+'Flat / Apartment',696,'Canary Wharf',71.12069,0.71,32976
+House,2605,Wimbledon,68.90595,0.49,28092
+House,2001,'Raynes Park',89.705147,0.54,28092
+House,1519,'Wandsworth Town',88.874259,3.27,28092
+'Flat / Apartment',584,Homerton,81.335616,0.05,33036
+House,947,'Wandsworth Town',73.917635,3.4,28092
+House,1986,'Clapham Junction',79.305136,0.93,28092
+'Flat / Apartment',421,'Bond Street',178.147268,0.1,76860
+'New development',1281,'Goodge Street',202.966432,0.21,38568
+'Flat / Apartment',1765,'Bond Street',110.481586,0.2,76860
+'Flat / Apartment',852,'Goodge Street',140.84507,0.06,38568
+'Flat / Apartment',625,'Oxford Circus',134.4,0.25,76860
+'Flat / Apartment',848,'Bond Street',123.820755,0.11,76860
+'Flat / Apartment',862,'High Street Kensington',11.600928,0.35,23748
+'Flat / Apartment',706,'High Street Kensington',155.807365,0.28,23748
+'Flat / Apartment',794,Angel,100.755668,1,31164
+Penthouse,972,'Bethnal Green',90.020576,0.42,32976
+'Flat / Apartment',1055,'Hackney Downs',85.308057,0.38,33036
+'Flat / Apartment',1210,Hampstead,72.31405,0.36,31164
+House,2654,'Chiswick Park',84.777694,0.46,27216
+House,2063,'West Kensington',94.52254,0.5,23748
+'New development',474,'Shepherds Bush',100.21097,0.57,22068
+House,2235,'Clapham Junction',111.856823,0.76,28092
+House,2014,'Clapham Junction',84.160874,0.96,28092
+'New development',540,'Canada Water',101.851852,0.32,35496
+House,1451,'High Street Kensington',175.740868,0.27,23748
+'Flat / Apartment',983,'Wandsworth Town',70.701933,1.34,28092
+'Flat / Apartment',1323,'Finsbury Park',54.799698,0.36,33036
+'Flat / Apartment',986,'Putney Bridge',68.458418,2.04,28092
+Penthouse,1809,'Royal Victoria',60.807076,0.16,36132
+'Flat / Apartment',566,Greenwich,79.5053,2.51,28476
+'Flat / Apartment',840,'Hackney Downs',75.595238,0.17,33036
+House,2035,'Barnes Bridge',73.710074,1.09,13728
+House,3244,Hammersmith,143.341554,0.4,22068
+'New development',734,'Putney Bridge',94.686649,2.1,28092
+'Flat / Apartment',1115,'Tower Gateway',77.578475,0.45,32976
+'Flat / Apartment',1300,'Earls Court',91.923077,0.41,23748
+'Flat / Apartment',731,'Royal Victoria',61.559508,0.27,36132
+'New development',639,'West Ealing',74.334898,0.39,32364
+'Flat / Apartment',1021,'Clapham Junction',68.560235,0.68,28092
+'Flat / Apartment',1454,'Oxford Circus',127.235213,0.92,76860
+House,914,'Clapham Junction',82.056893,0.52,28092
+House,586,Wimbledon,115.187713,0.36,28092
+'Flat / Apartment',818,'West Hampstead',93.520782,0.76,31164
+'Flat / Apartment',789,'Wandsworth Town',79.214195,3.61,28092
+'Flat / Apartment',803,Angel,84.059776,1.08,31164
+House,1466,Tooting,74.693042,5.55,28092
+'Flat / Apartment',1012,'Clapham Junction',113.636364,0.74,28092
+'Flat / Apartment',1018,Angel,84.479371,0.58,31164
+'New development',1615,Hampstead,154.798762,0.62,31164
+House,3583,'Putney Bridge',94.753,2.03,28092
+'Flat / Apartment',1077,Victoria,111.420613,0.35,76860
+'Flat / Apartment',947,'Wandsworth Town',62.829989,0.45,28092
+'Flat / Apartment',402,Wimbledon,93.283582,0.32,28092
+House,2626,'Wandsworth Town',68.545316,0.4,28092
+House,4180,'Raynes Park',65.789474,0.52,28092
+'Flat / Apartment',680,'Wandsworth Town',84.558824,3.7,28092
+House,2265,'Wandsworth Town',68.432671,3.75,28092
+'Flat / Apartment',1636,'Camden Town',103.606357,1.75,38568
+'Flat / Apartment',514,'St. Johns Wood',116.731518,0.11,76860
+House,1450,'Putney Bridge',84.482759,2.11,28092
+'New development',849,'Camden Town',111.896349,0.57,38568
+'Flat / Apartment',635,'Ladbroke Grove',145.669291,0.22,23748
+House,2056,'Clapham Junction',79.036965,0.96,28092
+'Flat / Apartment',840,Tooting,98.214286,5.46,28092
+'Flat / Apartment',1170,Tooting,76.923077,5.53,28092
+'Flat / Apartment',790,'Clapham Common',69.620253,0.13,34956
+'Flat / Apartment',1186,'Oxford Circus',126.475548,0.7,76860
+'Flat / Apartment',627,Victoria,119.617225,0.78,23748
+'Flat / Apartment',1187,'South Kensington',142.796967,0.67,23748
+'Flat / Apartment',929,Angel,102.260495,0.59,31164
+'Flat / Apartment',918,Angel,95.315904,1.24,31164
+House,1642,Angel,137.028015,0.66,31164
+House,3292,Hampstead,133.505468,0.66,31164
+'Flat / Apartment',466,Highgate,944.098712,0.39,29436
+House,1669,Highgate,107.549431,0.43,29436
+'Flat / Apartment',969,'Imperial Wharf',84.107327,0.09,22068
+House,1427,'Imperial Wharf',96.355992,0.18,22068
+'Flat / Apartment',1700,'Earls Court',132.352941,0.41,23748
+'Flat / Apartment',1393,'Earls Court',190.236899,0.34,23748
+'Flat / Apartment',732,'Aldgate East',65.57377,1.31,32976
+House,2827,Tooting,69.862045,5.59,28092
+House,638,Balham,97.962382,0.37,28092
+House,2286,Balham,80.927384,0.2,28092
+House,2201,Balham,72.69423,0.21,28092
+'Flat / Apartment',553,Greenwich,723.318264,2.53,28476
+House,1628,'Chiswick Park',82.923833,0.15,27216
+House,919,'Chiswick Park',82.698585,1.22,27216
+House,1983,'Chiswick Park',80.68583,0.63,27216
+'Flat / Apartment',373,'South Kensington',134.048257,0.25,23748
+House,2200,'Barnes Bridge',106.818182,0.72,13728
+House,1476,'Barnes Bridge',89.769648,1.05,13728
+House,1707,'Imperial Wharf',79.086116,0.14,22068
+'Flat / Apartment',906,'Imperial Wharf',93.818985,0.07,22068
+Duplex,2024,Hammersmith,74.110672,0.68,22068
+'New development',923,'Shepherds Bush',118.093174,0.82,22068
+'Flat / Apartment',1067,'Shepherds Bush',133.552015,0.87,22068
+House,1518,Vauxhall,60.935441,1.1,23748
+House,1435,'Clapham Junction',75.261324,0.45,28092
+'Flat / Apartment',942,'Clapham Junction',116.772824,1.03,28092
+House,1523,'Clapham Junction',6.565988,0.45,28092
+'Flat / Apartment',1717,'Clapham Junction',145.602796,1.12,28092
+'Flat / Apartment',509,Victoria,127.701375,0.44,23748
+'Flat / Apartment',815,'Bethnal Green',61.349693,0.75,32976
+'Flat / Apartment',558,'Russell Square',143.369176,0.44,38568
+'New development',580,'Goodge Street',196.551724,0.12,38568
+'Flat / Apartment',1969,'Oxford Circus',109.192483,0.5,76860
+'Flat / Apartment',1415,'Charing Cross',14.134276,0.22,76860
+House,2366,Balham,62.341505,0.56,28092
+'Flat / Apartment',429,'Bond Street',162.004662,0.1,76860
+Penthouse,1447,'High Street Kensington',130.960608,0.26,23748
+'Flat / Apartment',750,Angel,78,1.33,31164
+House,1750,'Hackney Downs',87.142857,0.4,33036
+'Flat / Apartment',1311,'Ealing Broadway',114.416476,0.59,32364
+House,4125,'Ealing Broadway',71.515152,0.38,32364
+House,3165,'West Ealing',93.206951,0.2,32364
+House,1326,Mortlake,64.102564,0.46,13728
+'Flat / Apartment',714,Tooting,73.529412,5.65,28092
+'Flat / Apartment',701,Balham,78.459344,0.39,28092
+House,1605,Balham,84.11215,0.23,28092
+'Flat / Apartment',753,'West Kensington',109.561753,0.39,23748
+House,1271,'Hackney Downs',46.420142,0.13,33036
+House,2042,'Imperial Wharf',80.803134,0.22,22068
+'Flat / Apartment',776,'Clapham Junction',80.541237,1.04,28092
+'Flat / Apartment',789,'Old Street',95.057034,0.73,31164
+'Flat / Apartment',610,'Bethnal Green',88.360656,0.8,32976
+House,1580,Mortlake,94.936709,0.51,13728
+House,3058,Mortlake,81.75278,0.32,13728
+'Flat / Apartment',886,Victoria,168.735892,0.94,23748
+'Flat / Apartment',1058,'London Bridge',103.969754,0.63,35496
+'Flat / Apartment',6049,'Ealing Broadway',4.959497,0.53,32364
+House,2938,Mortlake,91.729067,0.24,13728
+'Flat / Apartment',800,'Clapham Junction',90.625,1.08,28092
+'Flat / Apartment',1303,'St. Johns Wood',130.46815,0.58,76860
+House,3564,Angel,93.995511,0.31,31164
+House,3070,Hampstead,118.892508,0.58,31164
+'Flat / Apartment',1471,'Clapham Junction',88.03535,0.74,28092
+'Flat / Apartment',847,'Russell Square',164.698937,0.11,38568
+'Flat / Apartment',1091,'Green Park',261.228231,0.2,76860
+'Flat / Apartment',531,'Wandsworth Town',88.512241,3.72,28092
+'Flat / Apartment',551,Victoria,150.635209,0.39,76860
+House,1872,'Acton Central',66.773504,0.89,27264
+'Flat / Apartment',836,Victoria,107.057416,0.37,23748
+House,6713,Wimbledon,11.917176,0.44,28092
+House,1443,'Wandsworth Town',57.172557,2.59,28092
+'Flat / Apartment',925,Homerton,67.567568,0.15,33036
+'Flat / Apartment',1033,Victoria,242.013553,1.93,23748
+'Flat / Apartment',1948,Victoria,20.533881,1.82,23748
+'Flat / Apartment',2573,'High Street Kensington',153.517295,0.31,23748
+'Flat / Apartment',722,Angel,93.490305,0.97,31164
+'Flat / Apartment',969,'Tower Gateway',95.459236,0.23,32976
+House,1963,Balham,78.960774,0.15,28092
+'Flat / Apartment',969,'Canary Wharf',73.78741,0.48,32976
+House,1869,'Barnes Bridge',88.282504,1.04,13728
+House,2314,Angel,114.520311,1.08,31164
+Penthouse,1249,'Bethnal Green',68.054444,0.88,32976
+'Flat / Apartment',477,Angel,99.580713,0.92,31164
+'Flat / Apartment',1190,'Liverpool Street',79.831933,0.57,33036
+House,1658,'Wandsworth Town',75.392039,3.66,28092
+House,2960,'Chiswick Park',84.459459,0.28,27216
+Penthouse,2128,Vauxhall,138.62782,1.82,23748
+'Flat / Apartment',1150,'Old Street',121.304348,0.58,38568
+Penthouse,1476,'Hackney Central',88.075881,0.61,33036
+'Flat / Apartment',947,'Clapham Junction',108.236536,1.03,28092
+House,997,'Aldgate East',65.195587,1.19,32976
+House,1298,Homerton,73.189522,0.06,33036
+'Flat / Apartment',572,Canonbury,87.412587,0.73,31164
+House,1125,'Tower Gateway',106.666667,0.93,32976
+'Flat / Apartment',842,'Bethnal Green',74.228029,0.74,32976
+House,1873,'Wandsworth Town',72.076882,3.66,28092
+'Flat / Apartment',1556,Victoria,134.96144,0.32,76860
+House,2139,Victoria,182.328191,0.64,76860
+'Flat / Apartment',1986,'Ealing Broadway',65.458207,0.4,32364
+'Flat / Apartment',693,Victoria,105.339105,0.31,76860
+'Flat / Apartment',463,'West Kensington',885.421166,0.24,23748
+'Flat / Apartment',983,'Wandsworth Town',74.771109,3.7,28092
+'Flat / Apartment',499,Angel,99.198397,0.76,31164
+'Flat / Apartment',898,'Liverpool Street',97.438753,0.55,33036
+'Flat / Apartment',913,'Maida Vale',136.911281,0.36,23748
+'Flat / Apartment',870,'Maida Vale',80.45977,0.24,23748
+'Flat / Apartment',878,Angel,95.102506,1.15,31164
+'New development',920,Angel,86.956522,1.15,31164
+House,2006,Mortlake,97.208375,0.25,13728
+House,904,'Aldgate East',80.199115,1.12,32976
+'Flat / Apartment',802,'Old Street',112.219451,0.44,38568
+'Flat / Apartment',532,'Bond Street',150.37594,0.41,76860
+House,2679,'Chiswick Park',95.18477,0.34,27216
+'Flat / Apartment',676,'Maida Vale',99.852071,0.37,23748
+'Flat / Apartment',875,'Wandsworth Town',82.857143,3.53,28092
+'Flat / Apartment',2780,Blackfriars,142.086331,0.32,24000
+House,2736,'Chiswick Park',82.236842,0.8,27216
+House,3753,Tooting,67.945643,5.61,28092
+'Flat / Apartment',465,'Clapham Common',93.548387,0.4,34956
+'Flat / Apartment',506,Bromley-by-Bow,85.968379,1.23,32976
+'Flat / Apartment',747,Victoria,133.199465,0.4,76860
+'Flat / Apartment',1315,Canonbury,117.870722,0.73,31164
+House,2600,Victoria,138.461538,0.47,76860
+'Flat / Apartment',709,'West Kensington',105.782793,0.68,23748
+'Flat / Apartment',581,Victoria,117.039587,0.55,23748
+House,1428,'Caledonian Road & Barnsbury',97.689076,1.02,31164
+'Flat / Apartment',745,'Canada Water',77.181208,0.91,35496
+House,3595,'Raynes Park',74.408901,0.52,28092
+'Flat / Apartment',2288,Angel,96.153846,0.64,31164
+House,1447,'Ladbroke Grove',158.949551,0.25,23748
+House,1162,'Woolwich Arsenal',44.75043,1.5,28476
+House,1140,Tooting,76.754386,5.64,28092
+Penthouse,579,'Shepherds Bush',127.806563,0.82,22068
+'Flat / Apartment',699,'Wandsworth Town',75.107296,3.72,28092
+'Flat / Apartment',897,'Shepherds Bush',139.3534,0.8,22068
+House,1236,Tooting,64.320388,5.41,28092
+'Flat / Apartment',683,'Earls Court',136.896047,0.35,23748
+'Flat / Apartment',678,'Chiswick Park',78.908555,0.74,27216
+House,2055,Hammersmith,97.080292,0.68,22068
+House,2996,Blackheath,60.080107,1.13,28872
+House,1030,Streatham,72.815534,6.35,34956
+'New development',905,'Imperial Wharf',158.01105,0.77,22068
+'Flat / Apartment',1197,Angel,125.313283,0.18,31164
+House,2408,'Clapham Common',78.488372,0.14,34956
+'Flat / Apartment',1364,'St. Johns Wood',145.894428,0.49,76860
+'Flat / Apartment',1109,'Clapham Junction',74.391344,0.76,28092
+'Flat / Apartment',779,Angel,67.394095,0.36,31164
+'Flat / Apartment',635,'Clapham Junction',114.173228,0.47,28092
+'Flat / Apartment',1436,'Tower Gateway',62.674095,0.45,32976
+House,4642,Victoria,86.062042,0.27,23748
+House,1495,'Wandsworth Town',81.939799,0.5,28092
+House,2259,'Wandsworth Town',52.014166,3.92,28092
+'Flat / Apartment',551,'Old Street',90.744102,0.46,33036
+'Flat / Apartment',1677,'Camden Town',104.353011,0.69,38568
+'Flat / Apartment',1550,'Clapham Junction',135.483871,1.12,28092
+'Flat / Apartment',1318,'Clapham Junction',127.84522,0.84,28092
+'Flat / Apartment',759,'Clapham Junction',72.463768,0.44,28092
+'Flat / Apartment',412,Balham,105.582524,0.65,28092
+'Flat / Apartment',420,Balham,103.571429,0.65,28092
+'New development',1206,'Wandsworth Town',95.356551,3.43,28092
+'Flat / Apartment',1168,'St. Johns Wood',145.119863,0.55,76860
+'Flat / Apartment',508,Angel,98.425197,0.76,31164
+'Flat / Apartment',907,Balham,93.715546,0.65,28092
+'Flat / Apartment',1350,'Tower Gateway',71.851852,1.27,32976
+House,1642,Canonbury,100.487211,1.14,31164
+'Flat / Apartment',663,'Bethnal Green',71.644042,0.32,32976
+'Flat / Apartment',1050,'Clapham Common',100,0.21,34956
+House,1770,'Imperial Wharf',98.870056,1.14,22068
+'Flat / Apartment',477,'Ladbroke Grove',157.232704,0.58,23748
+'Flat / Apartment',607,Hampstead,95.551895,0.62,31164
+'New development',1100,'Imperial Wharf',152.727273,0.77,22068
+'Flat / Apartment',802,Temple,155.860349,0.22,76860
+'Flat / Apartment',1387,'Canary Wharf',50.468637,0.55,32976
+'Flat / Apartment',1175,'West Ealing',70.212766,0.2,32364
+'Flat / Apartment',953,'Shepherds Bush',110.178384,0.83,22068
+'Flat / Apartment',720,'Wandsworth Town',79.861111,3.64,28092
+'Flat / Apartment',617,'St. Johns Wood',117.504052,0.4,76860
+'Flat / Apartment',472,'Clapham Junction',111.228814,1.47,28092
+'Flat / Apartment',1019,Victoria,157.016683,0.83,23748
+House,2326,'Wandsworth Town',66.638005,3.75,28092
+'Flat / Apartment',1176,'Wandsworth Town',63.77551,3.54,28092
+House,987,'Bethnal Green',96.251266,0.49,32976
+House,2223,'South Kensington',191.183086,0.42,23748
+'Flat / Apartment',730,'Putney Bridge',97.260274,2.05,28092
+'Flat / Apartment',569,Greenwich,702.97891,2.21,28476
+'Flat / Apartment',814,'Canary Wharf',64.496314,0.97,32976
+'New development',2967,'Chiswick Park',84.260195,0.29,27216
+'Flat / Apartment',698,'London Bridge',136.103152,0.71,35496
+House,1510,'Imperial Wharf',81.125828,0.15,22068
+'Flat / Apartment',678,'Clapham Junction',103.244838,0.65,28092
+'New development',1081,'Imperial Wharf',200.740056,0.77,22068
+'Flat / Apartment',709,'Canary Wharf',88.857546,0.42,32976
+House,1565,Angel,102.236422,0.66,31164
+'Flat / Apartment',626,Homerton,75.878594,3.84,33036
+'Flat / Apartment',481,'Imperial Wharf',103.950104,0.25,22068
+'Flat / Apartment',358,'Goodge Street',153.631285,0.12,38568
+House,4862,'Barnes Bridge',89.469354,1.6,13728
+'Flat / Apartment',1173,'West Kensington',66.069906,0.4,23748
+House,1909,'Putney Bridge',70.455736,2.04,28092
+House,2978,'Putney Bridge',75.554063,2.04,28092
+'Flat / Apartment',752,'Clapham Junction',66.489362,0.5,28092
+'Flat / Apartment',1192,'London Bridge',134.228188,1.7,35496
+'Flat / Apartment',578,'Wandsworth Town',89.100346,3.41,28092
+'Flat / Apartment',693,'Wandsworth Town',71.428571,3.62,28092
+House,1541,Bromley-by-Bow,96.365996,0.8,32976
+House,2034,'Camden Town',179.449361,0.6,38568
+Penthouse,896,Angel,92.075893,0.94,31164
+'Flat / Apartment',1021,'Clapham Junction',66.111655,0.41,28092
+'Flat / Apartment',854,'Ealing Broadway',70.257611,0.75,32364
+Penthouse,594,Greenwich,66.498316,2.15,28476
+'Flat / Apartment',862,'Canary Wharf',92.227378,0.33,32976
+'Flat / Apartment',1768,'West Kensington',76.357466,0.79,23748
+'Flat / Apartment',2147,'London Bridge',167.675827,0.36,35496
+'Flat / Apartment',1176,Vauxhall,157.312925,1.15,23748
+House,1211,'Wandsworth Town',72.254335,3.33,28092
+House,1830,Mortlake,73.770492,0.48,13728
+'Flat / Apartment',760,'Clapham Junction',82.236842,0.63,28092
+House,1643,'Chiswick Park',97.078515,0.38,27216
+House,2979,'Ladbroke Grove',159.44948,0.44,23748
+'Flat / Apartment',638,'Imperial Wharf',105.799373,0.84,22068
+'Flat / Apartment',822,Angel,109.489051,0.35,31164
+House,1195,Angel,133.891213,0.37,31164
+'Flat / Apartment',1358,'Green Park',276.141384,0.3,76860
+'Flat / Apartment',730,Homerton,63.69863,0.18,33036
+'Flat / Apartment',842,'Clapham Common',100.950119,0.36,34956
+House,3179,'Barnes Bridge',102.233407,1.74,13728
+'Flat / Apartment',1200,'Tower Gateway',125,0.42,32976
+'Flat / Apartment',717,'Canary Wharf',62.761506,0.67,32976
+'Flat / Apartment',2123,Victoria,111.869995,0.45,76860
+House,2264,'West Ealing',78.621908,0.49,32364
+'Flat / Apartment',729,Angel,106.310014,1.38,31164
+'Flat / Apartment',1700,'West Kensington',85.294118,0.79,23748
+'Flat / Apartment',563,Bromley-by-Bow,75.488455,1,32976
+'Flat / Apartment',1171,'South Kensington',192.143467,0.31,23748
+Penthouse,1946,Paddington,218.396711,0.21,76860
+House,2009,'Barnes Bridge',9.955202,1.44,13728
+House,1260,'Canary Wharf',63.492063,0.86,32976
+House,1275,Homerton,70.588235,0.13,33036
+'Flat / Apartment',832,'Putney Bridge',93.629808,2.09,28092
+House,1146,'Putney Bridge',82.460733,2.03,28092
+'Flat / Apartment',630,'Clapham Junction',87.301587,0.68,28092
+'Flat / Apartment',680,'Clapham Junction',102.941176,0.35,28092
+House,1512,Angel,122.354497,0.56,31164
+'New development',541,Barbican,146.950092,0.19,33036
+Penthouse,1485,Greenwich,67.003367,2.55,28476
+'Flat / Apartment',1043,'Maida Vale',71.907958,0.18,23748
+House,1207,Tooting,74.565037,5.48,28092
+'Flat / Apartment',922,Victoria,94.902386,0.74,76860
+House,1201,Wimbledon,64.529559,0.79,28092
+'Flat / Apartment',653,'Canary Wharf',86.523737,0.25,32976
+'New development',1342,'Old Street',14.90313,0.12,33036
+'New development',772,'Old Street',12.953368,0.12,33036
+House,1477,'High Street Kensington',208.192282,0.39,23748
+House,1877,'Canary Wharf',66.595631,0.79,32976
+'Flat / Apartment',601,'Goodge Street',148.918469,0.1,38568
+'Flat / Apartment',1273,'Old Street',70.699136,0.06,38568
+'Flat / Apartment',1382,'Gospel Oak',61.505065,0.36,31164
+'Flat / Apartment',872,'Clapham Junction',83.142202,0.96,28092
+'Flat / Apartment',433,'Wandsworth Town',79.676674,0.81,28092
+Penthouse,1378,'Maida Vale',123.367199,0.25,23748
+'Flat / Apartment',958,'High Street Kensington',161.795407,0.25,23748
+'Flat / Apartment',1428,'High Street Kensington',94.537815,0.29,23748
+House,2640,Angel,125,0.51,31164
+Penthouse,1043,'Canary Wharf',60.402685,0.59,32976
+'Flat / Apartment',987,Greenwich,72.948328,2.55,28476
+House,2666,'Chiswick Park',88.147037,0.46,27216
+'Flat / Apartment',703,'Imperial Wharf',113.798009,0.12,22068
+House,1909,'Clapham Junction',94.290204,0.68,28092
+House,2942,Streatham,56.084296,6.36,34956
+'Flat / Apartment',472,Bromley-by-Bow,778.601695,0.43,32976
+'Flat / Apartment',1081,'Clapham Common',87.419056,0.19,34956
+'Flat / Apartment',560,'Aldgate East',122.321429,0.14,32976
+House,1582,Hampstead,69.532238,0.56,31164
+'New development',606,'Imperial Wharf',142.739274,0.77,22068
+'Flat / Apartment',696,Angel,104.166667,0.34,31164
+House,1310,'Chiswick Park',91.603053,1.22,27216
+House,2126,'Barnes Bridge',79.962371,1.32,13728
+'Flat / Apartment',574,'Wandsworth Town',74.041812,3.61,28092
+'Flat / Apartment',596,'Wandsworth Town',88.087248,3.9,28092
+'Flat / Apartment',722,'Clapham Junction',114.265928,1.49,28092
+'Flat / Apartment',1481,'London Bridge',118.163403,1.99,35496
+House,1632,'Wandsworth Town',67.401961,3.89,28092
+'Flat / Apartment',626,Bromley-by-Bow,84.664537,1.24,32976
+'Flat / Apartment',1149,'St. Johns Wood',156.222802,0.19,76860
+'Flat / Apartment',805,'Clapham Junction',90.062112,0.45,28092
+'Flat / Apartment',996,'Hackney Downs',77.811245,0.38,33036
+House,1242,'West Ealing',68.438003,0.3,32364
+House,1510,Streatham,55.960265,6.36,34956
+'Flat / Apartment',826,'Old Street',102.905569,0.74,38568
+'Flat / Apartment',977,'Chiswick Park',89.559877,0.25,27216
+House,1354,'Barnes Bridge',7.385524,0.52,13728
+'Flat / Apartment',751,Victoria,139.813582,0.38,76860
+'Flat / Apartment',765,'Clapham Junction',75.163399,0.85,28092
+'Flat / Apartment',1013,Hammersmith,98.2231,0.51,22068
+'New development',1440,'Shepherds Bush',107.291667,0.92,22068
+House,1647,'Putney Bridge',78.627808,2.03,28092
+House,1467,Victoria,122.699387,0.58,23748
+'Flat / Apartment',863,'Putney Bridge',89.803013,2.09,28092
+Penthouse,1084,'Dalston Junction',81.642066,0.15,33036
+'Flat / Apartment',821,Greenwich,60.292326,2.24,28476
+'Flat / Apartment',455,'West Brompton',131.868132,0.82,23748
+House,3622,'Clapham Common',94.561016,0.12,34956
+House,2278,'Barnes Bridge',65.847234,1.21,13728
+'Flat / Apartment',708,'Clapham Junction',112.99435,1.51,28092
+'Flat / Apartment',1020,Canonbury,102.941176,0.59,31164
+'Flat / Apartment',628,Angel,107.484076,0.31,31164
+'Flat / Apartment',1077,Highgate,81.244197,0.11,29436
+'Flat / Apartment',778,'West Kensington',96.401028,0.68,23748
+'New development',1000,'Hackney Downs',68.5,0.13,33036
+House,2435,'Bond Street',16.427105,0.26,76860
+House,1771,'Putney Bridge',75.381141,2.03,28092
+'New development',1265,'Tower Gateway',177.865613,0.38,32976
+'Flat / Apartment',1612,Hampstead,100.806452,0.61,31164
+'Flat / Apartment',723,'Caledonian Road & Barnsbury',117.565698,0.42,31164
+'Flat / Apartment',536,'Caledonian Road & Barnsbury',102.61194,0.42,31164
+House,1259,'Caledonian Road & Barnsbury',111.199365,0.42,31164
+House,1335,Balham,89.88764,0.12,28092
+'Flat / Apartment',767,Greenwich,64.537158,2.72,28476
+House,2479,Angel,110.931827,0.79,31164
+House,2110,'Hackney Downs',79.383886,0.33,33036
+'Flat / Apartment',1316,Victoria,121.200608,0.41,76860
+'Flat / Apartment',1171,'St. Johns Wood',119.12895,0.66,76860
+'Flat / Apartment',2435,'St. Johns Wood',135.318275,0.22,76860
+'Flat / Apartment',857,'Aldgate East',93.348891,0.48,32976
+House,1669,Victoria,197.723188,0.49,23748
+House,1735,'High Street Kensington',129.682997,0.22,23748
+'Flat / Apartment',585,Canonbury,94.017094,1.2,31164
+House,2813,Highgate,115.535016,0.59,29436
+House,3175,'Imperial Wharf',94.173228,1.11,22068
+'Flat / Apartment',566,'Tower Gateway',83.922261,0.48,32976
+'Flat / Apartment',885,'Canary Wharf',84.745763,0.83,32976
+'Flat / Apartment',858,'Shepherds Bush',78.671329,1.46,22068
+'Flat / Apartment',1016,'Barnes Bridge',93.503937,1.07,13728
+'Flat / Apartment',495,'Wandsworth Town',90.909091,0.61,28092
+'Flat / Apartment',1547,Hampstead,145.442793,1.27,31164
+House,1087,'South Kensington',246.090156,0.41,23748
+'Flat / Apartment',943,Hampstead,132.555673,1.38,31164
+'Flat / Apartment',861,Vauxhall,98.722416,1.27,23748
+'Flat / Apartment',1514,'Canary Wharf',6.60502,0.2,32976
+'Flat / Apartment',687,'Gospel Oak',120.087336,0.79,31164
+'Flat / Apartment',1091,Hammersmith,96.24198,0.51,22068
+House,3116,Highgate,76.219512,0.99,29436
+House,3235,'Putney Bridge',91.190108,2.04,28092
+'Flat / Apartment',1219,'Clapham Junction',130.844955,0.87,28092
+House,2243,'St. Johns Wood',167.186803,0.29,76860
+'Flat / Apartment',599,'West Hampstead',91.819699,1.07,31164
+'Flat / Apartment',1048,'Royal Victoria',56.29771,0.06,36132
+'New development',591,'Covent Garden',219.62775,0.13,76860
+'Flat / Apartment',572,'Wandsworth Town',78.671329,0.62,28092
+House,1842,Angel,97.448426,0.62,31164
+'Flat / Apartment',450,'Bethnal Green',83.333333,0.98,32976
+'Flat / Apartment',929,'Canary Wharf',71.044133,1.18,32976
+'Flat / Apartment',858,'Shepherds Bush',90.32634,1.11,22068
+'Flat / Apartment',875,'Old Street',113.714286,0.49,33036
+House,1520,'Barnes Bridge',88.815789,1.46,13728
+'Flat / Apartment',887,Streatham,60.315671,6.35,34956
+'Flat / Apartment',344,'Maida Vale',111.918605,0.4,23748
+'Flat / Apartment',723,'Earls Court',165.283541,0.31,23748
+Penthouse,1260,'Putney Bridge',94.84127,2.05,28092
+'Flat / Apartment',979,'Oxford Circus',160.878447,0.12,76860
+House,2381,'South Kensington',155.396892,0.41,23748
+'Flat / Apartment',474,'Gospel Oak',116.033755,0.91,31164
+House,2402,Hampstead,176.935887,0.38,31164
+House,1668,'Ealing Broadway',77.93765,0.29,32364
+'Flat / Apartment',491,'Earls Court',127.291242,0.28,23748
+'Flat / Apartment',667,'Aldgate East',66.716642,0.97,32976
+'Flat / Apartment',743,Balham,90.174966,0.16,28092
+House,1837,Balham,75.394665,0.27,28092
+House,2305,Balham,71.583514,0.21,28092
+'Flat / Apartment',768,Balham,81.380208,0.55,28092
+'Flat / Apartment',800,Farringdon,124.375,0.16,38568
+'Flat / Apartment',594,'Chiswick Park',78.282828,0.31,27216
+'Flat / Apartment',1299,'Barnes Bridge',100.076982,1.03,13728
+House,3165,'Shepherds Bush',6.319115,1.09,22068
+'Flat / Apartment',1138,Hampstead,94.463972,0.18,31164
+House,4980,'Wandsworth Town',10.040161,0.91,28092
+'New development',2431,'West Hampstead',71.986837,0.61,31164
+House,1679,'Clapham Junction',110.184634,0.67,28092
+'Flat / Apartment',1054,'Canary Wharf',85.388994,0.61,32976
+'Flat / Apartment',3943,'London Bridge',121.607913,1.99,35496
+'Flat / Apartment',568,Angel,105.633803,0.74,31164
+'Flat / Apartment',956,'Wandsworth Town',69.560669,3.42,28092
+House,2335,Tooting,70.663812,5.45,28092
+House,2030,'West Hampstead',110.837438,0.77,31164
+House,1773,Mortlake,70.219966,0.35,13728
+'Flat / Apartment',510,Homerton,85.294118,0.14,33036
+House,2315,Hammersmith,8.639309,0.76,22068
+Penthouse,623,'Russell Square',112.359551,0.39,38568
+'New development',801,'Maida Vale',91.13608,0.31,23748
+House,4503,Tooting,64.290473,5.58,28092
+'Flat / Apartment',1275,'Green Park',223.529412,0.44,76860
+'Flat / Apartment',869,Greenwich,69.044879,2.21,28476
+House,3071,'Clapham Common',76.522305,0.1,34956
+'Flat / Apartment',662,Angel,101.208459,0.31,31164
+'Flat / Apartment',776,'Ladbroke Grove',151.417526,0.22,23748
+House,1953,'Clapham Junction',79.365079,0.66,28092
+House,2116,'Clapham Junction',94.281664,0.78,28092
+'Flat / Apartment',809,Victoria,241.038319,0.87,23748
+Duplex,940,Angel,77.12766,1.37,31164
+House,2293,'West Hampstead',98.124727,0.51,31164
+'Flat / Apartment',708,'Chiswick Park',56.497175,0.9,27216
+'Flat / Apartment',1186,'Clapham Junction',126.475548,0.73,28092
+House,2598,Tooting,82.755966,5.45,28092
+House,1133,'Barnes Bridge',78.993822,1.23,13728
+House,2243,Hammersmith,96.968346,0.52,22068
+House,2012,'Clapham Junction',86.978131,0.95,28092
+House,1888,'Oxford Circus',132.415254,0.81,76860
+House,760,'Clapham Common',121.710526,0.17,34956
+'Flat / Apartment',481,'Aldgate East',114.345114,0.25,32976
+House,2526,'Chiswick Park',91.053048,0.24,27216
+'Flat / Apartment',664,'Putney Bridge',97.891566,2.07,28092
+'New development',813,'Acton Central',73.800738,0.53,27264
+'Flat / Apartment',941,'Hackney Downs',82.359192,1,33036
+'Flat / Apartment',1160,'Clapham Junction',81.896552,0.79,28092
+House,2434,Balham,67.789647,0.45,28092
+'Flat / Apartment',909,'Caledonian Road & Barnsbury',11.0011,0.23,31164
+'Flat / Apartment',1281,Balham,76.112412,0.08,28092
+'Flat / Apartment',1097,'Wandsworth Town',61.531449,3.31,28092
+'Flat / Apartment',2176,Victoria,160.615809,0.39,76860
+'Flat / Apartment',507,Wimbledon,69.033531,0.52,28092
+'Flat / Apartment',763,Paddington,163.826999,1.15,23748
+'Flat / Apartment',1022,Angel,78.277886,1.27,31164
+'Flat / Apartment',747,'Hackney Downs',98.393574,0.52,33036
+'New development',1495,'Earls Court',133.444816,0.46,23748
+House,2355,Balham,57.324841,0.75,28092
+House,1255,Balham,79.282869,0.35,28092
+House,2680,Tooting,7.462687,5.6,28092
+'Flat / Apartment',1019,Streatham,73.60157,6.33,34956
+'Flat / Apartment',1849,'Canary Wharf',78.420768,0.63,32976
+'New development',1203,'Canary Wharf',108.063175,0.3,32976
+'Flat / Apartment',833,Hammersmith,96.038415,0.79,22068
+House,2226,'Clapham Common',8.984726,0.31,34956
+'Flat / Apartment',411,'Bethnal Green',87.591241,0.39,32976
+'Flat / Apartment',970,'Imperial Wharf',97.938144,0.4,22068
+'Flat / Apartment',840,'Bond Street',351.190476,0.37,76860
+House,1572,Tooting,76.335878,5.51,28092
+'New development',6333,'West Brompton',23.685457,0.49,23748
+Penthouse,1255,Wimbledon,75.697211,0.23,28092
+'Flat / Apartment',939,Paddington,159.211928,1.37,23748
+House,2738,Victoria,100.438276,0.5,23748
+'Flat / Apartment',694,'Putney Bridge',88.616715,2.04,28092
+'Flat / Apartment',817,'Wandsworth Town',70.991432,3.64,28092
+'Flat / Apartment',695,Wimbledon,68.345324,0.61,28092
+'Flat / Apartment',1152,Streatham,45.572917,6.34,34956
+'Flat / Apartment',500,'Canary Wharf',65,0.43,32976
+'Flat / Apartment',1039,Hampstead,95.765159,0.84,31164
+House,1275,'Clapham Junction',78.039216,0.43,28092
+House,1775,Wimbledon,72.957746,0.45,28092
+House,1758,'Wandsworth Town',65.415245,3.54,28092
+House,1432,'Wandsworth Town',76.815642,3.85,28092
+'Flat / Apartment',661,'Wandsworth Town',84.720121,3.55,28092
+'Flat / Apartment',471,'St. Johns Wood',100.849257,0.4,76860
+Penthouse,1052,'Aldgate East',104.562738,0.4,32976
+'Flat / Apartment',292,Hampstead,136.30137,1.35,31164
+House,776,'Clapham Junction',108.891753,0.36,28092
+House,1677,Angel,125.223614,0.61,31164
+'Flat / Apartment',1359,Angel,102.649007,1.14,31164
+'Flat / Apartment',1013,Cricklewood,88.845015,0.97,31452
+House,1623,'Gospel Oak',113.986445,0.34,31164
+'Flat / Apartment',2774,Hampstead,162.22062,0.7,31164
+'Flat / Apartment',868,'South Kensington',172.235023,0.4,23748
+House,1489,Mortlake,83.613163,0.28,13728
+'Flat / Apartment',1087,'Tower Gateway',87.396504,0.86,32976
+House,4415,Balham,74.745187,0.17,28092
+'Flat / Apartment',814,'Old Street',98.280098,0.41,38568
+House,2853,'West Kensington',10.515247,0.45,23748
+House,2299,'Clapham Junction',102.218356,0.76,28092
+'Flat / Apartment',1174,Victoria,158.432709,0.39,76860
+'Flat / Apartment',601,Victoria,141.430948,0.18,23748
+'Flat / Apartment',929,'Canary Wharf',69.967707,0.22,32976
+'Flat / Apartment',780,'Imperial Wharf',99.358974,0.99,22068
+'Flat / Apartment',693,'Imperial Wharf',90.18759,0.3,22068
+'New development',1175,'Hackney Central',75.319149,0.8,33036
+'New development',647,'Putney Bridge',91.962906,2.11,28092
+'New development',657,'Putney Bridge',90.563166,2.11,28092
+'Flat / Apartment',1420,'Clapham Common',52.816901,0.49,34956
+'Flat / Apartment',1203,Angel,145.469659,0.91,31164
+'Flat / Apartment',701,'Canary Wharf',82.025678,0.47,32976
+House,1272,Balham,102.201258,0.37,28092
+'Flat / Apartment',864,Homerton,75.231481,0.11,33036
+'Flat / Apartment',1471,'Camden Town',186.947655,0.82,38568
+'Flat / Apartment',1540,'Camden Town',147.727273,0.53,38568
+'Flat / Apartment',887,Victoria,145.997745,0.3,23748
+'Flat / Apartment',764,'Clapham Junction',99.47644,0.23,28092
+'Flat / Apartment',820,'Clapham Common',103.658537,0.31,34956
+House,1799,'Hackney Downs',87.548638,0.34,33036
+'New development',667,Brixton,93.703148,0.37,34956
+House,2199,'Chiswick Park',86.40291,0.19,27216
+House,3334,'Barnes Bridge',86.832633,0.46,13728
+'Flat / Apartment',748,'West Kensington',96.925134,0.41,23748
+'Flat / Apartment',580,'Shepherds Bush',129.310345,0.83,22068
+House,1324,'Clapham Junction',83.081571,0.49,28092
+'Flat / Apartment',2168,'Clapham Junction',108.394834,1.01,28092
+'Flat / Apartment',1959,Victoria,109.749872,0.59,76860
+House,2346,'Raynes Park',55.41347,0.44,28092
+'Flat / Apartment',1082,Wimbledon,73.475046,0.68,28092
+'Flat / Apartment',1888,'Raynes Park',71.504237,0.66,28092
+'Flat / Apartment',721,Homerton,70.73509,0.18,33036
+'Flat / Apartment',469,'Camden Town',117.270789,1.8,38568
+'Flat / Apartment',619,'St. Johns Wood',102.584814,0.37,76860
+'Flat / Apartment',669,Hampstead,100.149477,0.99,31164
+'Flat / Apartment',1173,'Old Street',8.525149,0.06,38568
+House,1616,'South Kensington',225.866337,0.53,23748
+House,1255,'Wandsworth Town',85.657371,3.39,28092
+House,4661,'Putney Bridge',79.274834,2.07,28092
+'Flat / Apartment',524,'Clapham Junction',95.419847,0.48,28092
+'Flat / Apartment',926,'Clapham Junction',92.332613,0.64,28092
+'Flat / Apartment',693,'Clapham Common',97.402597,0.59,34956
+House,1324,'Clapham Junction',97.809668,0.36,28092
+House,1920,'Clapham Junction',75.520833,0.93,28092
+House,1558,'Clapham Common',107.509628,0.23,34956
+'Flat / Apartment',458,'Wandsworth Town',98.253275,3.42,28092
+'Flat / Apartment',818,'Wandsworth Town',73.349633,3.42,28092
+'Flat / Apartment',565,'Wandsworth Town',92.920354,3.42,28092
+'Flat / Apartment',791,'Maida Vale',107.458913,0.37,23748
+'Flat / Apartment',663,'Goodge Street',165.158371,0.42,76860
+'Flat / Apartment',1374,'Oxford Circus',187.409025,0.3,76860
+'Flat / Apartment',1089,'Bond Street',160.697888,0.39,76860
+House,1010,Victoria,193.069307,2.04,23748
+'Flat / Apartment',757,'South Kensington',184.280053,0.3,23748
+House,2282,'High Street Kensington',140.22787,0.24,23748
+'Flat / Apartment',476,'High Street Kensington',162.815126,0.2,23748
+House,1433,'High Street Kensington',160.502442,0.43,23748
+'Flat / Apartment',483,'Hackney Downs',62.111801,0.84,33036
+House,1787,'Gospel Oak',100.447678,0.59,31164
+House,1888,'East Finchley',82.097458,0.58,31452
+'Flat / Apartment',985,Hampstead,88.832487,0.89,31164
+House,2858,'Imperial Wharf',82.225332,0.22,22068
+'Flat / Apartment',1730,'Imperial Wharf',112.716763,1.17,22068
+House,1102,'Imperial Wharf',127.041742,0.86,22068
+House,3558,'Ealing Broadway',77.290613,0.49,32364
+'Flat / Apartment',770,'Ealing Broadway',64.935065,1,32364
+'Flat / Apartment',635,'West Brompton',137.007874,0.22,23748
+'Flat / Apartment',689,'Earls Court',168.359942,0.15,23748
+'New development',1023,'Imperial Wharf',131.964809,0.75,22068
+'Flat / Apartment',1575,'Tower Gateway',68.253968,0.86,32976
+'Flat / Apartment',848,'Clapham Common',81.957547,0.13,34956
+House,1350,Balham,90.740741,0.12,28092
+House,2668,Balham,86.206897,0.35,28092
+'Flat / Apartment',848,Tooting,64.858491,5.4,28092
+'Flat / Apartment',640,'Canary Wharf',70.3125,0.54,32976
+'Flat / Apartment',1399,'Canary Wharf',46.461758,0.51,32976
+'Flat / Apartment',963,Farringdon,98.650052,0.74,38568
+'Flat / Apartment',747,'Chancery Lane',118.473896,0.28,38568
+House,1688,'Chiswick Park',94.490521,1.07,27216
+House,705,'Chiswick Park',95.744681,1.29,27216
+House,3491,'Barnes Bridge',71.612718,0.56,13728
+'New development',672,'Shepherds Bush',115.327381,0.82,22068
+'Flat / Apartment',1081,Hammersmith,92.044403,0.48,22068
+'Flat / Apartment',640,'Clapham Junction',89.0625,1.08,28092
+'Flat / Apartment',935,'Clapham Junction',101.604278,0.96,28092
+'Flat / Apartment',569,'Aldgate East',96.660808,0.22,32976
+'Flat / Apartment',1101,Hammersmith,108.991826,0.47,22068
+'Flat / Apartment',1961,Wimbledon,96.889342,0.69,28092
+'Flat / Apartment',721,'Wandsworth Town',83.217753,1.22,28092
+'Flat / Apartment',549,Homerton,81.967213,0.26,33036
+House,2142,'Camden Town',137.721755,1.62,38568
+House,2064,Hampstead,86.967054,0.48,31164
+'Flat / Apartment',1030,'Wandsworth Town',82.524272,3.63,28092
+'Flat / Apartment',930,Tooting,91.397849,5.52,28092
+'Flat / Apartment',1384,'Russell Square',158.598266,0.41,38568
+'Flat / Apartment',560,'West Brompton',125,0.5,23748
+House,2128,'Barnes Bridge',99.859023,1.44,13728
+'Flat / Apartment',1033,'Clapham Junction',94.385286,0.82,28092
+'Flat / Apartment',1467,'Russell Square',13.633265,0.2,38568
+'Flat / Apartment',677,'Royal Victoria',66.469719,0.28,36132
+'Flat / Apartment',502,Homerton,74.701195,0.15,33036
+'Flat / Apartment',562,Farringdon,115.658363,0.64,38568
+House,2177,'Chiswick Park',101.0565,0.35,27216
+House,1835,'Wandsworth Town',76.021798,3.41,28092
+'Flat / Apartment',590,'Royal Victoria',63.559322,0.2,36132
+'Flat / Apartment',956,'Maida Vale',125.523013,0.06,23748
+House,2580,Hammersmith,96.705426,0.66,22068
+'Flat / Apartment',662,Angel,98.187311,0.74,31164
+'Flat / Apartment',1159,'West Brompton',107.851596,0.96,23748
+'Flat / Apartment',847,Homerton,91.49941,0.2,33036
+'Flat / Apartment',774,'Wandsworth Town',89.793282,3.44,28092
+'Flat / Apartment',526,'Wandsworth Town',71.292776,0.61,28092
+'Flat / Apartment',930,'West Kensington',89.247312,0.36,23748
+'Flat / Apartment',526,Westminster,120.722433,0.33,76860
+'Flat / Apartment',976,'Maida Vale',130.635246,0.29,23748
+'Flat / Apartment',1313,Hampstead,83.777609,0.8,31164
+Penthouse,2922,Barbican,154.004107,0.59,38568
+'Flat / Apartment',1295,Paddington,212.355212,0.22,76860
+'Flat / Apartment',947,'Clapham Junction',100.31679,1.24,28092
+'Flat / Apartment',789,'West Hampstead',90.621039,1.18,31164
+'Flat / Apartment',2047,Paddington,151.441133,0.43,23748
+'New development',1075,'Old Street',183.906977,0.12,33036
+'New development',1372,'Old Street',173.396501,0.12,33036
+'New development',1594,'Old Street',181.869511,0.12,33036
+House,3546,Hampstead,133.953751,0.7,31164
+'Flat / Apartment',800,'Aldgate East',56.25,1.46,32976
+House,1450,'Putney Bridge',85.862069,2.04,28092
+House,1262,'Wandsworth Town',94.690967,3.3,28092
+House,946,'St. Johns Wood',140.063425,0.34,76860
+'Flat / Apartment',853,Angel,90.855803,0.78,31164
+'Flat / Apartment',667,'Wandsworth Town',69.715142,3.4,28092
+House,2535,Tooting,58.974359,5.57,28092
+'Flat / Apartment',495,'Old Street',131.313131,0.43,31164
+House,926,Mortlake,83.693305,0.37,13728
+'Flat / Apartment',1053,'Goodge Street',227.920228,0.21,38568
+House,1903,'Putney Bridge',89.06989,2.13,28092
+House,1980,Tooting,64.393939,5.55,28092
+House,2475,Highgate,101.010101,0.15,29436
+'New development',819,Vauxhall,103.785104,1.77,23748
+House,2101,'Shepherds Bush',85.435507,1.3,22068
+'Flat / Apartment',613,'Wandsworth Town',93.800979,3.46,28092
+House,3900,'Acton Central',76.897436,0.44,27264
+'Flat / Apartment',781,Hampstead,110.755442,1.35,31164
+'Flat / Apartment',1364,'London Bridge',109.970674,0.79,35496
+House,972,'Ealing Broadway',87.44856,1.49,32364
+'Flat / Apartment',554,'Tower Gateway',75.812274,0.87,32976
+'Flat / Apartment',573,Hampstead,143.979058,0.06,31164
+'Flat / Apartment',802,'Bond Street',268.0798,0.48,76860
+'Flat / Apartment',773,'South Kensington',155.239327,0.34,23748
+'Flat / Apartment',463,'Oxford Circus',150.107991,0.89,76860
+'Flat / Apartment',785,Angel,95.541401,0.93,31164
+'Flat / Apartment',1133,Paddington,132.39188,1.34,23748
+'Flat / Apartment',822,'Maida Vale',103.406326,0.19,23748
+'Flat / Apartment',1407,'Aldgate East',88.841507,0.4,32976
+'Flat / Apartment',641,Westminster,214.50858,0.7,76860
+'Flat / Apartment',517,'South Kensington',163.44294,0.21,23748
+'Flat / Apartment',541,'Canary Wharf',103.512015,0.33,32976
+'Flat / Apartment',549,'Wandsworth Town',74.681239,3.35,28092
+'Flat / Apartment',562,Homerton,88.078292,0.07,33036
+'Flat / Apartment',882,Balham,90.136054,0.19,28092
+House,2736,Brixton,7.309942,0.45,34956
+'New development',898,'Old Street',105.790646,0.49,33036
+'Flat / Apartment',1234,'Old Street',109.400324,0.56,31164
+'Flat / Apartment',962,'Gospel Oak',93.555094,0.52,31164
+'Flat / Apartment',1539,'West Kensington',97.465887,0.29,23748
+'New development',1184,Mortlake,88.682432,0.31,13728
+'Flat / Apartment',594,'Hackney Downs',82.491582,1.06,33036
+'Flat / Apartment',741,Temple,147.773279,0.24,76860
+'Flat / Apartment',648,'Barnes Bridge',96.450617,1.66,13728
+House,3252,'Chiswick Park',79.9508,0.44,27216
+'Flat / Apartment',2024,'High Street Kensington',165.513834,0.34,23748
+House,4767,'Clapham Common',83.805328,0.15,34956
+House,2082,'Clapham Common',120.076849,0.55,34956
+'New development',883,'Finsbury Park',81.540204,0.06,33036
+'New development',883,'Finsbury Park',80.973952,0.06,33036
+'New development',883,'Finsbury Park',80.407701,0.06,33036
+'Flat / Apartment',678,'Wandsworth Town',66.371681,3.5,28092
+'Flat / Apartment',955,Angel,99.47644,0.82,31164
+Penthouse,1152,'Gospel Oak',104.166667,0.62,31164
+House,2290,'Chiswick Park',91.703057,0.21,27216
+House,1384,'Clapham Common',92.124277,0.38,34956
+House,1013,Angel,123.395854,0.33,31164
+Penthouse,913,'Hackney Downs',101.314348,1.06,33036
+'Flat / Apartment',1682,Victoria,184.3044,1.21,23748
+House,3143,'Chiswick Park',56.474706,0.59,27216
+House,2230,'Wandsworth Town',78.475336,3.78,28092
+House,1654,Brixton,78.295042,0.78,34956
+House,2446,'Clapham Common',72.567457,0.21,34956
+House,1415,'South Kensington',208.480565,0.57,23748
+'Flat / Apartment',570,Victoria,114.035088,0.34,23748
+House,1674,'Wandsworth Town',74.671446,0.42,28092
+House,1805,'Wandsworth Town',72.022161,3.83,28092
+'Flat / Apartment',274,Homerton,1094.708029,0.07,33036
+'Flat / Apartment',424,'Bethnal Green',86.084906,0.24,32976
+'Flat / Apartment',720,'Bethnal Green',65.972222,0.24,32976
+'Flat / Apartment',738,'Maida Vale',101.626016,0.22,23748
+'Flat / Apartment',2006,'Maida Vale',129.361914,0.15,23748
+'New development',1545,Temple,242.718447,0.18,76860
+House,954,Angel,141.509434,1,31164
+'Flat / Apartment',688,'Hackney Downs',83.575581,0.88,33036
+'New development',986,'Ealing Broadway',91.27789,0.62,32364
+'Flat / Apartment',829,'South Kensington',180.337756,0.32,23748
+'Flat / Apartment',626,'Tower Gateway',79.073482,0.79,32976
+'Flat / Apartment',446,Lewisham,67.264574,0.75,28872
+House,1019,'Chiswick Park',78.017664,1.32,27216
+House,1606,'Barnes Bridge',77.833126,1.42,13728
+'Flat / Apartment',1383,'Clapham Junction',135.574837,1.06,28092
+'Flat / Apartment',898,'Wandsworth Town',77.951002,3.36,28092
+House,2650,Paddington,173.584906,1.14,23748
+'New development',1049,'Old Street',155.386082,0.36,31164
+House,1357,'Wandsworth Town',68.16507,3.86,28092
+'Flat / Apartment',1816,Victoria,63.325991,0.42,76860
+House,5509,Wimbledon,72.517698,0.39,28092
+House,2342,Tooting,60.845431,5.43,28092
+House,2885,'Chiswick Park',114.384749,0.92,27216
+'Flat / Apartment',848,Victoria,104.95283,0.38,76860
+'Flat / Apartment',523,'Putney Bridge',81.26195,2.04,28092
+'Flat / Apartment',512,'Tower Gateway',68.359375,0.86,32976
+'Flat / Apartment',469,'West Hampstead',85.074627,1.14,31164
+'Flat / Apartment',1001,'West Brompton',134.365634,0.71,23748
+Penthouse,1154,'Old Street',103.986135,0.24,38568
+'New development',2767,'Barnes Bridge',102.999639,0.89,13728
+'Flat / Apartment',1055,'Wandsworth Town',78.199052,3.48,28092
+'Flat / Apartment',600,'Maida Vale',119.166667,0.34,23748
+'Flat / Apartment',565,'South Kensington',150.442478,0.36,23748
+Penthouse,902,'Chiswick Park',69.290466,1.2,27216
+House,4002,Angel,118.690655,0.93,31164
+House,2492,'Clapham Junction',88.081862,0.98,28092
+'Flat / Apartment',1056,'Oxford Circus',108.901515,0.52,76860
+'Flat / Apartment',1332,Hampstead,93.843844,0.36,31164
+'Flat / Apartment',631,'Oxford Circus',166.402536,0.07,76860
+'Flat / Apartment',1641,'West Kensington',100.548446,0.28,23748
+House,1962,Balham,81.549439,0.75,28092
+'Flat / Apartment',1100,Victoria,77.272727,0.24,23748
+House,1867,'Wandsworth Town',72.308516,3.81,28092
+House,2140,'Wandsworth Town',85.280374,3.26,28092
+House,3801,'Wandsworth Town',61.825835,3.81,28092
+Penthouse,1039,Stratford,76.997113,0.27,36132
+'Flat / Apartment',1152,'St. Johns Wood',95.486111,0.11,76860
+'Flat / Apartment',625,'Clapham Junction',92,0.47,28092
+'New development',1712,'Clapham Junction',80.315421,0.25,28092
+House,1845,Angel,90.785908,1.24,31164
+'Flat / Apartment',964,'Ealing Broadway',72.614108,0.33,32364
+House,2151,'Ealing Broadway',65.086007,1.3,32364
+'Flat / Apartment',1846,'Earls Court',178.494041,0.28,23748
+'Flat / Apartment',660,'Canada Water',74.090909,0.82,35496
+Penthouse,831,'West Brompton',167.870036,0.48,23748
+'Flat / Apartment',834,'Earls Court',143.884892,0.44,23748
+'Flat / Apartment',784,'Chiswick Park',88.647959,0.16,27216
+'Flat / Apartment',822,'Royal Victoria',60.827251,0.1,36132
+'Flat / Apartment',880,'Clapham Junction',107.954545,0.6,28092
+'Flat / Apartment',1215,Victoria,125.514403,0.37,76860
+Penthouse,1409,'South Kensington',248.048261,0.35,23748
+'Flat / Apartment',1010,'Clapham Junction',84.158416,0.67,28092
+'Flat / Apartment',2750,'Maida Vale',154.545455,0.42,23748
+'Flat / Apartment',624,'Earls Court',124.198718,0.42,23748
+'Flat / Apartment',386,Farringdon,116.580311,0.64,38568
+'Flat / Apartment',458,Victoria,141.921397,0.38,23748
+'New development',1776,'South Kensington',216.779279,0.4,23748
+'Flat / Apartment',832,'South Kensington',156.25,0.34,23748
+House,1253,'Ealing Broadway',71.827614,0.25,32364
+'Flat / Apartment',1107,'Ladbroke Grove',135.501355,0.13,23748
+Duplex,1295,'Clapham Junction',83.011583,0.44,28092
+'Flat / Apartment',928,'Maida Vale',123.922414,0.42,23748
+House,3953,'Barnes Bridge',74.626866,1.56,13728
+House,2768,'Clapham Junction',100.975434,0.86,28092
+'Flat / Apartment',1100,'West Kensington',104.545455,0.35,23748
+House,1543,Paddington,184.70512,0.25,76860
+House,2090,Hammersmith,90.909091,0.94,22068
+'Flat / Apartment',517,Hammersmith,106.382979,0.9,22068
+House,1777,Tooting,87.225661,5.44,28092
+'Flat / Apartment',902,Angel,11.086475,1.18,31164
+'New development',3682,Blackheath,67.897882,1.04,28872
+House,1305,Wimbledon,68.582375,0.51,28092
+'Flat / Apartment',797,'Wandsworth Town',81.555834,3.78,28092
+'Flat / Apartment',1504,Victoria,275.930851,1.93,23748
+'Flat / Apartment',1883,Hampstead,103.558152,0.48,31164
+'Flat / Apartment',1821,'Earls Court',151.015925,0.19,23748
+'Flat / Apartment',529,'Shepherds Bush',103.969754,0.58,22068
+House,1860,'Shepherds Bush',80.645161,0.92,22068
+House,2090,'Clapham Junction',93.301435,0.64,28092
+'Flat / Apartment',1830,Paddington,117.486339,1.1,23748
+House,2682,'Imperial Wharf',104.399702,1.17,22068
+'Flat / Apartment',816,Balham,91.911765,0.21,28092
+House,6388,Mortlake,10.958046,0.37,13728
+'Flat / Apartment',553,Greenwich,71.428571,2.53,28476
+'Flat / Apartment',661,'Maida Vale',103.630862,0.15,23748
+'Flat / Apartment',986,Hammersmith,80.628803,0.86,22068
+'Flat / Apartment',570,'Maida Vale',105.263158,0.3,23748
+'Flat / Apartment',616,'Maida Vale',101.461039,0.31,23748
+'Flat / Apartment',832,'Tower Gateway',93.149038,0.67,32976
+'Flat / Apartment',880,'Shepherds Bush',133.522727,0.82,22068
+House,1449,'Clapham Junction',82.815735,0.31,28092
+'Flat / Apartment',1901,'Camden Town',15.781168,0.55,38568
+'Flat / Apartment',787,'Maida Vale',123.888183,0.42,23748
+Penthouse,2402,Highgate,110.324729,0.25,29436
+'Flat / Apartment',793,'Barnes Bridge',72.509458,1.27,?
+'Flat / Apartment',1657,Paddington,226.312613,1.28,23748
+'Flat / Apartment',893,Balham,81.74692,0.12,28092
+House,1268,'Clapham Common',86.356467,0.43,34956
+House,2087,Victoria,210.828941,1.43,23748
+House,1625,Angel,113.846154,1.31,31164
+'Flat / Apartment',908,Hampstead,121.145374,1.09,31164
+'Flat / Apartment',971,'Earls Court',153.964985,0.14,23748
+'Flat / Apartment',504,Streatham,74.404762,6.34,34956
+'Flat / Apartment',473,Tooting,89.852008,5.42,28092
+'Flat / Apartment',767,Balham,88.005215,0.26,28092
+House,3203,'Barnes Bridge',101.467374,1.28,13728
+House,2336,'Clapham Common',76.840753,0.17,34956
+'Flat / Apartment',1380,'Ealing Broadway',7.246377,0.41,32364
+'Flat / Apartment',1155,'Putney Bridge',81.385281,2.05,28092
+'Flat / Apartment',305,Wimbledon,1311.311475,0.29,28092
+'Flat / Apartment',415,Bromley-by-Bow,87.951807,0.61,32976
+'Flat / Apartment',892,'Maida Vale',84.080717,0.24,23748
+House,2247,'Wandsworth Town',82.331998,3.58,28092
+'Flat / Apartment',892,Hampstead,11.210762,1.33,31164
+'Flat / Apartment',675,'South Kensington',188.888889,0.4,23748
+'Flat / Apartment',1945,'Wandsworth Town',115.681234,3.3,28092
+House,4847,'Camden Town',77.367444,0.59,38568
+'Flat / Apartment',880,'Caledonian Road & Barnsbury',85.227273,0.37,31164
+'Flat / Apartment',680,'Wandsworth Town',73.529412,3.34,28092
+'Flat / Apartment',1282,'West Brompton',124.804992,0.98,23748
+'Flat / Apartment',836,'Old Street',83.732057,0.44,38568
+'Flat / Apartment',767,'Maida Vale',101.694915,0.35,23748
+House,1782,Victoria,154.320988,0.44,23748
+'Flat / Apartment',603,'High Street Kensington',109.452736,0.11,23748
+House,1602,Tooting,74.594257,5.49,28092
+House,1993,'Imperial Wharf',85.248369,0.22,22068
+House,1450,Balham,86.206897,0.37,28092
+'Flat / Apartment',945,'St. Johns Wood',84.656085,0.15,76860
+House,2351,'Clapham Junction',95.703956,0.85,28092
+'Flat / Apartment',1203,'Canary Wharf',103.906899,0.52,32976
+House,3478,Streatham,53.910293,6.34,34956
+House,2804,Hanwell,44.579173,0.61,32364
+House,2605,'Imperial Wharf',105.566219,1.19,22068
+'Flat / Apartment',896,'Wandsworth Town',61.383929,3.87,28092
+'Flat / Apartment',703,'Goodge Street',105.974395,0.45,38568
+'Flat / Apartment',654,'Putney Bridge',80.275229,2.03,28092
+'Flat / Apartment',882,'Old Street',130.385488,0.44,33036
+House,2861,'Shepherds Bush',87.382034,1.11,22068
+'New development',612,Hampstead,171.568627,1.21,31164
+Penthouse,1455,'Bond Street',199.312715,0.09,76860
+House,2910,Tooting,67.869416,5.59,28092
+House,2959,'Chiswick Park',94.626563,0.85,27216
+'Flat / Apartment',732,'South Kensington',191.256831,0.18,23748
+'Flat / Apartment',1242,'Barnes Bridge',58.373591,1.06,13728
+'Flat / Apartment',1335,'Russell Square',14.981273,0.36,38568
+'Flat / Apartment',838,'Clapham Junction',101.431981,0.93,28092
+'Flat / Apartment',440,Angel,57.954545,1.52,31164
+'Flat / Apartment',919,Balham,86.507073,0.19,28092
+'New development',843,'Oxford Circus',177.935943,0.2,76860
+House,1813,Paddington,179.260894,1.45,23748
+'Flat / Apartment',893,'Aldgate East',61.590146,0.58,32976
+'Flat / Apartment',418,'Gospel Oak',119.617225,0.8,31164
+House,3601,'Raynes Park',81.921688,0.4,28092
+House,1675,'Wandsworth Town',67.761194,3.88,28092
+'Flat / Apartment',1018,'Hackney Downs',63.850688,1,33036
+House,2835,'Golders Green',82.892416,0.38,31164
+'Flat / Apartment',666,'Earls Court',119.369369,0.3,23748
+'Flat / Apartment',1963,'Canary Wharf',96.790627,1.05,32976
+House,1907,'Barnes Bridge',102.254851,0.98,13728
+'Flat / Apartment',1332,'High Street Kensington',138.888889,0.31,23748
+House,3480,Hampstead,114.798851,0.49,31164
+House,1269,'Oxford Circus',177.304965,0.23,76860
+House,3100,'Barnes Bridge',83.709677,0.6,13728
+'Flat / Apartment',767,Angel,84.745763,0.93,31164
+'Flat / Apartment',783,'Barnes Bridge',87.484036,0.8,13728
+'Flat / Apartment',1026,'Bethnal Green',58.479532,0.39,32976
+'Flat / Apartment',518,'Hackney Downs',99.420849,0.11,33036
+'Flat / Apartment',1072,Hammersmith,69.962687,0.48,22068
+House,2567,'Clapham Common',104.986365,0.12,34956
+'New development',2000,'West Brompton',180,0.2,23748
+'New development',1075,'Canary Wharf',97.674419,0.43,32976
+'Flat / Apartment',810,'Royal Victoria',70.987654,0.77,22431
+'Flat / Apartment',536,'Clapham Junction',93.283582,0.93,28092
+'Flat / Apartment',753,'Woolwich Arsenal',105.577689,0.34,28476
+'Flat / Apartment',574,Bromley-by-Bow,95.818815,0.76,32976
+'Flat / Apartment',960,'Shepherds Bush',128.645833,0.8,22068
+'Flat / Apartment',1452,'Oxford Circus',178.719008,0.71,76860
+House,1467,'Acton Central',61.349693,0.5,27264
+House,1730,'Hackney Central',73.699422,0.76,33036
+'Flat / Apartment',1665,'St. Johns Wood',162.162162,0.68,76860
+'Flat / Apartment',798,'Aldgate East',81.453634,0.59,32976
+'Flat / Apartment',425,'Clapham Junction',111.764706,0.7,28092
+'Flat / Apartment',647,Brixton,69.551777,0.6,34956
+'New development',728,'Caledonian Road & Barnsbury',75.549451,0.75,31164
+House,1398,'Hackney Downs',82.260372,0.12,33036
+'Flat / Apartment',702,'Chiswick Park',84.757835,1.19,27216
+House,5613,Hampstead,86.406556,0.82,31164
+House,4923,'Putney Bridge',64.899452,2.03,28092
+'New development',925,Cricklewood,85.945946,0.82,31452
+House,2454,'Clapham Common',93.520782,0.43,34956
+House,2872,Balham,97.493036,0.14,28092
+House,2147,Wimbledon,67.536097,0.24,28092
+'New development',3336,Tooting,88.429257,5.46,28092
+'Flat / Apartment',537,'Imperial Wharf',116.387337,0.13,22068
+House,1502,'Acton Central',6.65779,0.57,27264
+'New development',800,'West Ealing',71.875,0.39,32364
+'Flat / Apartment',590,Tooting,72.033898,5.43,28092
+'Flat / Apartment',486,Bromley-by-Bow,720.154321,0.11,32976
+House,2366,'Shepherds Bush',76.077768,0.57,22068
+'Flat / Apartment',958,Hammersmith,109.60334,0.62,22068
+'Flat / Apartment',1763,'Imperial Wharf',90.754396,0.99,22068
+House,3908,'Barnes Bridge',115.148414,1.5,13728
+'Flat / Apartment',1083,Victoria,110.803324,0.7,76860
+'Flat / Apartment',1753,'South Kensington',142.327439,0.39,23748
+House,1750,'Clapham Junction',72.857143,0.38,28092
+'Flat / Apartment',798,'Piccadilly Circus',187.969925,0.25,76860
+'Flat / Apartment',630,'Maida Vale',95.238095,0.31,23748
+'Flat / Apartment',908,'Maida Vale',121.145374,0.23,23748
+House,971,'Raynes Park',59.217302,1.17,28092
+'Flat / Apartment',893,'Clapham Common',103.583427,0.13,34956
+'Flat / Apartment',2500,'South Kensington',190,0.44,23748
+House,2189,'West Kensington',9.136592,0.81,23748
+House,1347,'Chiswick Park',96.510765,0.67,27216
+'Flat / Apartment',2043,'Putney Bridge',53.842389,2.04,28092
+'Flat / Apartment',890,'Liverpool Street',134.831461,0.5,33036
+'Flat / Apartment',944,'Clapham Junction',97.987288,0.45,28092
+'Flat / Apartment',961,'West Kensington',150.884495,0.78,23748
+'Flat / Apartment',1623,'South Kensington',135.243376,0.34,23748
+'Flat / Apartment',797,Hammersmith,69.008783,0.58,22068
+House,1360,'Putney Bridge',101.102941,2.04,28092
+'Flat / Apartment',847,'Royal Victoria',51.948052,2.52,22431
+'Flat / Apartment',1956,'Bond Street',178.936605,0.09,76860
+'Flat / Apartment',895,Bromley-by-Bow,53.072626,0.68,32976
+'Flat / Apartment',1312,'West Hampstead',62.881098,0.76,31164
+House,2956,Hampstead,118.403248,1.32,31164
+'Flat / Apartment',1474,'South Kensington',186.567164,0.74,23748
+'Flat / Apartment',928,Stratford,67.349138,0.21,36132
+'New development',1487,Mortlake,87.088097,0.4,13728
+House,2995,'Wandsworth Town',98.497496,3.37,28092
+House,1907,'Hackney Downs',68.1699,0.56,33036
+House,1020,Hampstead,146.568627,0.99,31164
+'Flat / Apartment',922,'Barnes Bridge',86.225597,1.13,13728
+House,2106,'Chiswick Park',68.850902,0.32,27216
+'Flat / Apartment',860,'Clapham Junction',92.44186,0.59,28092
+'Flat / Apartment',993,'Wandsworth Town',77.039275,3.54,28092
+House,2309,Mortlake,93.113902,0.55,13728
+'Flat / Apartment',616,'Tower Gateway',133.928571,0.23,32976
+House,1703,'Imperial Wharf',92.483852,0.78,22068
+House,1900,Vauxhall,71.052632,0.98,23748
+'Flat / Apartment',1003,Victoria,204.386839,1.98,23748
+'Flat / Apartment',943,Hampstead,92.788971,0.59,31164
+House,1445,Tooting,88.235294,5.48,28092
+House,2833,'Chiswick Park',100.600071,0.93,27216
+House,3775,'Chiswick Park',92.715232,0.73,27216
+House,2618,'Shepherds Bush',71.619557,1.01,22068
+House,2139,'Chiswick Park',98.176718,1.13,27216
+'Flat / Apartment',2315,'St. Johns Wood',161.987041,0.49,76860
+'Flat / Apartment',1289,'Maida Vale',190.069822,0.4,23748
+'Flat / Apartment',554,'Canary Wharf',89.891697,0.52,32976
+'Flat / Apartment',795,'Wandsworth Town',74.213836,3.35,28092
+'Flat / Apartment',756,Farringdon,119.047619,0.31,38568
+'Flat / Apartment',850,'South Kensington',140.588235,0.3,23748
+'Flat / Apartment',1268,'Earls Court',173.107256,0.41,23748
+House,3029,'Shepherds Bush',79.234071,1.41,22068
+'Flat / Apartment',975,'Clapham Junction',87.179487,0.78,28092
+'Flat / Apartment',1070,'Camden Town',95.794393,1.84,38568
+'Flat / Apartment',411,'Camden Town',126.520681,1.58,38568
+House,2158,'Putney Bridge',90.361446,2.1,28092
+House,1364,'Hackney Downs',94.941349,0.52,33036
+'Flat / Apartment',547,Greenwich,74.954296,2.39,28476
+'Flat / Apartment',541,Vauxhall,115.526802,0.58,23748
+'Flat / Apartment',571,'Old Street',113.835377,0.43,31164
+'Flat / Apartment',735,'Wandsworth Town',80.952381,1.03,28092
+'New development',1191,'High Street Kensington',222.502099,0.17,23748
+House,2882,'Wandsworth Town',86.745316,3.57,28092
+House,1661,Vauxhall,57.194461,1.33,23748
+'Flat / Apartment',2056,'Putney Bridge',59.581712,2.03,28092
+'Flat / Apartment',1118,'Ladbroke Grove',160.554562,0.46,23748
+House,2899,'Putney Bridge',79.165229,2.04,28092
+'Flat / Apartment',2248,'High Street Kensington',22.241993,0.25,23748
+House,3414,'Putney Bridge',84.797891,2.05,28092
+'Flat / Apartment',728,'South Kensington',13.736264,0.42,23748
+'Flat / Apartment',825,Canonbury,75.757576,0.54,31164
+House,4088,'Ealing Broadway',7.338552,0.9,32364
+'New development',4438,Wimbledon,89.004056,0.3,28092
+House,3295,'Clapham Junction',91.016692,0.85,28092
+'Flat / Apartment',925,Victoria,104.324324,0.3,23748
+House,2127,'Barnes Bridge',9.402915,1.44,13728
+'New development',3802,Wimbledon,90.741715,0.48,28092
+'Flat / Apartment',555,'South Kensington',161.261261,0.33,23748
+House,1256,Vauxhall,87.181529,1.28,23748
+'New development',3900,Blackheath,72.307692,1.04,28872
+House,2835,Wimbledon,79.365079,0.28,28092
+House,1667,Homerton,86.982603,0.12,33036
+'Flat / Apartment',997,'Old Street',70.210632,0.06,38568
+Penthouse,1836,'Aldgate East',100.762527,0.4,32976
+House,3325,'Russell Square',9.022556,0.16,38568
+House,2232,Balham,68.324373,0.51,28092
+Penthouse,1117,'Chancery Lane',120.859445,0.25,38568
+'Flat / Apartment',636,'Old Street',98.27044,0.59,38568
+House,1576,'Imperial Wharf',104.695431,0.13,22068
+'Flat / Apartment',500,'Camden Town',90,0.32,38568
+House,1372,Victoria,118.440233,0.48,23748
+'Flat / Apartment',848,Farringdon,100.235849,0.55,38568
+House,2469,'Chiswick Park',91.130012,0.32,27216
+House,2803,'St. Johns Wood',140.920442,0.34,76860
+House,2396,Kennington,73.038397,1.02,35496
+'Flat / Apartment',678,'Bond Street',176.253687,0.11,76860
+'Flat / Apartment',1077,'Wandsworth Town',60.352832,1.02,28092
+House,3027,'Imperial Wharf',9.910803,1.11,22068
+'Flat / Apartment',960,Bromley-by-Bow,57.291667,0.38,32976
+'Flat / Apartment',659,Victoria,15.174507,0.31,23748
+House,2123,'Wandsworth Town',70.654734,3.61,28092
+'Flat / Apartment',1021,'Earls Court',97.453477,0.55,23748
+'Flat / Apartment',565,'Camden Town',92.920354,0.41,38568
+'Flat / Apartment',1190,Victoria,201.260504,0.28,23748
+'Flat / Apartment',1367,'High Street Kensington',153.621068,0.23,23748
+'Flat / Apartment',1044,'Wandsworth Town',76.628352,3.68,28092
+'Flat / Apartment',1113,'Putney Bridge',79.514825,2.03,28092
+House,2881,'Putney Bridge',83.130857,2.04,28092
+'Flat / Apartment',1502,Paddington,111.850866,0.52,76860
+House,2178,'Chiswick Park',9.182736,0.42,27216
+House,1752,'Chiswick Park',67.06621,0.5,27216
+House,2720,'Imperial Wharf',86.397059,0.98,22068
+'Flat / Apartment',1227,Paddington,126.324368,1.42,23748
+House,2314,'Imperial Wharf',108.038029,0.74,22068
+'Flat / Apartment',871,Canonbury,79.793341,1.07,31164
+'Flat / Apartment',1402,'Earls Court',128.031384,0.35,23748
+House,2665,'Wandsworth Town',95.684803,3.57,28092
+'Flat / Apartment',711,'Clapham Junction',79.465541,0.56,28092
+'Flat / Apartment',1950,'London Bridge',128.205128,0.58,35496
+'Flat / Apartment',920,'Wandsworth Town',96.195652,3.61,28092
+'New development',362,'Putney Bridge',1104.834254,2.11,28092
+'Flat / Apartment',1013,'Camden Town',88.351431,0.5,38568
+'Flat / Apartment',654,'Wandsworth Town',84.097859,3.82,28092
+House,2270,Balham,63.876652,0.08,28092
+'New development',861,'Shepherds Bush',134.727062,0.83,22068
+'Flat / Apartment',1227,'St. Johns Wood',203.748981,0.4,76860
+'Flat / Apartment',699,'South Kensington',225.321888,0.39,23748
+House,3613,Highgate,69.194575,0.48,29436
+'Flat / Apartment',682,'South Kensington',168.621701,0.74,23748
+House,1727,'Hackney Downs',83.960625,0.24,33036
+House,1304,Victoria,203.220859,0.77,23748
+House,1601,Wimbledon,73.39163,0.71,28092
+'Flat / Apartment',630,Homerton,57.142857,0.15,33036
+'Flat / Apartment',920,'Putney Bridge',72.826087,2.05,28092
+House,1828,'Imperial Wharf',68.380744,0.23,22068
+'Flat / Apartment',422,'Acton Central',82.938389,0.77,27264
+House,1978,'South Kensington',214.863498,0.46,23748
+'Flat / Apartment',1262,'Clapham Common',97.068146,0.39,34956
+House,1447,'Aldgate East',79.474775,0.46,32976
+House,2422,'Clapham Common',92.898431,0.52,34956
+'Flat / Apartment',376,Homerton,107.712766,0.1,33036
+House,2160,Angel,78.472222,1.24,31164
+'Flat / Apartment',770,Angel,110.38961,0.52,31164
+'Flat / Apartment',924,'Shepherds Bush',140.151515,0.83,22068
+'Flat / Apartment',1765,Hammersmith,155.807365,0.47,22068
+'Flat / Apartment',1539,Vauxhall,178.687459,1.21,23748
+'Flat / Apartment',638,'Green Park',235.109718,0.39,76860
+'Flat / Apartment',1461,'Aldgate East',75.290897,0.58,32976
+House,2890,Hampstead,164.359862,0.91,31164
+House,3053,'Barnes Bridge',81.886669,1.38,13728
+'Flat / Apartment',1281,'Barnes Bridge',97.580016,1.17,13728
+'New development',1887,Mortlake,87.440382,0.4,13728
+House,1481,'South Kensington',236.326806,0.49,23748
+House,2631,'West Kensington',161.535538,0.83,23748
+'Flat / Apartment',718,Paddington,153.203343,0.7,23748
+House,2885,'Imperial Wharf',107.45234,1.12,22068
+'Flat / Apartment',990,'Wandsworth Town',70.707071,3.32,28092
+'Flat / Apartment',1078,Westminster,148.423006,0.33,76860
+House,899,'Putney Bridge',69.521691,2.03,28092
+House,1975,Hampstead,95.949367,1.01,31164
+'Flat / Apartment',454,'Ladbroke Grove',106.828194,0.26,23748
+House,2887,'Acton Central',74.47177,0.5,27264
+House,1358,'Shepherds Bush',88.365243,1.54,22068
+'Flat / Apartment',895,Greenwich,63.128492,2.34,28476
+'Flat / Apartment',736,'Clapham Junction',81.521739,0.81,28092
+'New development',1978,Mortlake,93.528817,0.4,13728
+House,1766,'Wandsworth Town',72.197055,3.5,28092
+House,1913,Victoria,109.775222,0.15,23748
+'Flat / Apartment',2377,Victoria,145.140934,1.37,23748
+'New development',546,Hampstead,192.307692,1.21,31164
+'Flat / Apartment',1115,'Clapham Junction',89.237668,0.88,28092
+'Flat / Apartment',1346,Highgate,85.438336,0.61,29436
+Penthouse,1715,Mortlake,128.279883,0.4,13728
+Penthouse,1490,Mortlake,120.805369,0.4,13728
+'Flat / Apartment',681,Victoria,99.853157,0.2,23748
+'New development',1033,'Maida Vale',89.545015,0.38,23748
+'Flat / Apartment',1441,Paddington,124.913255,1.95,23748
+'Flat / Apartment',923,Angel,10.834236,0.43,31164
+'Flat / Apartment',744,'Old Street',112.231183,0.62,38568
+House,2599,'Ealing Broadway',73.10504,0.98,32364
+'Flat / Apartment',2114,'Aldgate East',89.87701,0.3,32976
+'Flat / Apartment',615,'Putney Bridge',87.804878,2.03,28092
+'Flat / Apartment',767,Greenwich,59.973924,2.72,28476
+'Flat / Apartment',626,Victoria,116.613419,0.53,76860
+'Flat / Apartment',1618,Wimbledon,92.398022,0.38,28092
+'Flat / Apartment',839,'St. Johns Wood',142.431466,0.44,76860
+'Flat / Apartment',828,'Earls Court',93.599034,0.47,23748
+House,2634,'Clapham Junction',121.488231,1.09,28092
+'Flat / Apartment',462,'Caledonian Road & Barnsbury',108.225108,0.23,31164
+'New development',1083,'Imperial Wharf',200.369344,0.77,22068
+'Flat / Apartment',924,'South Kensington',150.974026,0.3,23748
+House,2062,'Clapham Junction',111.542192,0.74,28092
+House,902,'Clapham Junction',99.778271,0.65,28092
+'Flat / Apartment',750,Victoria,180,0.31,23748
+Penthouse,4004,Victoria,12.487512,0.51,23748
+House,2713,'Imperial Wharf',84.777,0.13,22068
+House,968,'Ealing Broadway',98.140496,0.24,32364
+Penthouse,1895,Victoria,122.691293,0.55,23748
+'Flat / Apartment',1039,'Earls Court',115.014437,0.19,23748
+House,1874,'Chiswick Park',120.064034,0.25,27216
+'Flat / Apartment',674,'Clapham Junction',88.278932,0.48,28092
+'Flat / Apartment',801,'Wandsworth Town',87.390762,3.28,28092
+'Flat / Apartment',736,Angel,91.711957,0.47,31164
+'Flat / Apartment',907,'Ealing Broadway',88.202867,0.48,32364
+'Flat / Apartment',1156,'West Brompton',95.155709,0.64,23748
+'Flat / Apartment',685,'Covent Garden',145.255474,0.15,38568
+'Flat / Apartment',2423,'St. Johns Wood',144.44903,0.32,76860
+House,4188,'Chiswick Park',94.317096,0.87,27216
+House,4039,Victoria,22.282743,0.56,23748
+'Flat / Apartment',945,'Clapham Common',52.910053,0.2,34956
+'Flat / Apartment',870,'Chancery Lane',109.195402,0.25,38568
+'New development',1310,'Clapham Common',83.969466,0.16,34956
+Penthouse,496,'Aldgate East',94.758065,0.24,32976
+'Flat / Apartment',969,'Camden Town',128.998968,0.69,38568
+House,1017,'Clapham Junction',83.579154,0.66,28092
+'Flat / Apartment',1167,Victoria,113.538989,0.68,76860
+House,2441,Hammersmith,139.287177,0.54,22068
+'Flat / Apartment',1189,Victoria,138.772077,0.83,76860
+'Flat / Apartment',2080,'West Brompton',132.211538,1.05,23748
+'Flat / Apartment',1119,'Oxford Circus',196.604111,0.36,76860
+House,4095,'Imperial Wharf',94.627595,0.16,22068
+Penthouse,2494,'South Kensington',174.418605,0.4,23748
+'Flat / Apartment',542,'Aldgate East',87.638376,0.22,32976
+'Flat / Apartment',738,'Aldgate East',60.97561,1.31,32976
+'Flat / Apartment',1067,Paddington,135.895033,2.01,23748
+'Flat / Apartment',1539,Paddington,146.19883,1.53,23748
+House,3001,'Barnes Bridge',116.627791,0.82,13728
+'Flat / Apartment',1551,'Canary Wharf',55.770471,0.71,32976
+'Flat / Apartment',795,'Finsbury Park',74.842767,0.85,33036
+House,2454,'Imperial Wharf',107.98696,0.59,22068
+House,1454,Hammersmith,75.65337,0.83,22068
+'Flat / Apartment',1024,'Imperial Wharf',116.699219,0.42,22068
+'Flat / Apartment',1194,'Hackney Downs',81.658291,0.47,33036
+'Flat / Apartment',521,Paddington,139.15547,1.34,23748
+'New development',1184,'High Street Kensington',232.263514,0.12,23748
+'New development',1203,'Canary Wharf',114.297589,0.3,32976
+Penthouse,1268,'Canary Wharf',145.899054,0.3,32976
+'New development',934,Victoria,195.396146,0.39,76860
+'Flat / Apartment',2403,'Putney Bridge',55.139409,2.03,28092
+'Flat / Apartment',596,Victoria,125.838926,0.38,76860
+'New development',531,'Canary Wharf',108.286252,0.3,32976
+'Flat / Apartment',983,'West Brompton',144.964395,0.69,23748
+'Flat / Apartment',672,'Hackney Downs',81.845238,0.38,33036
+'Flat / Apartment',1337,'High Street Kensington',164.547494,0.36,23748
+House,1450,Angel,13.793103,0.5,31164
+House,3247,Canonbury,107.791808,0.88,31164
+'Flat / Apartment',1234,'Royal Victoria',61.993517,0.57,36132
+'Flat / Apartment',782,'Clapham Junction',111.892583,0.9,28092
+'New development',1452,Mortlake,90.909091,0.4,13728
+'Flat / Apartment',558,Angel,98.566308,0.67,31164
+'Flat / Apartment',1535,Paddington,104.234528,0.35,76860
+'Flat / Apartment',800,Farringdon,111.25,0.14,38568
+'New development',978,'Clapham Junction',88.139059,0.06,28092
+'New development',636,'Clapham Junction',121.855346,1.4,28092
+'New development',1500,'Barnes Bridge',106.666667,0.97,13728
+'Flat / Apartment',1376,'South Kensington',141.715116,0.27,23748
+'Flat / Apartment',484,'Goodge Street',140.495868,0.46,76860
+'Flat / Apartment',1386,'Clapham Junction',129.87013,0.93,28092
+'Flat / Apartment',1452,'Clapham Junction',102.61708,0.9,28092
+'Flat / Apartment',1088,'Clapham Junction',137.867647,1.13,28092
+'Flat / Apartment',1056,'Old Street',104.166667,0.54,38568
+'Flat / Apartment',959,'West Kensington',107.403545,0.33,23748
+'Flat / Apartment',1007,'Shepherds Bush',134.061569,0.82,22068
+'Flat / Apartment',693,'Earls Court',126.984127,0.5,23748
+'Flat / Apartment',1278,'Canary Wharf',68.466354,0.47,32976
+'Flat / Apartment',835,'West Kensington',95.688623,0.77,23748
+'New development',2453,Highgate,87.647778,0.31,29436
+'New development',2421,Highgate,8.261049,0.31,29436
+House,2701,'Kew Bridge',3.702332,0.77,27216
+'Flat / Apartment',995,'Bond Street',386.934673,0.38,76860
+'Flat / Apartment',1025,'Ealing Broadway',68.292683,1.49,32364
+House,2282,'Imperial Wharf',8.764242,0.75,22068
+'Flat / Apartment',2476,'South Kensington',131.260097,0.33,23748
+'Flat / Apartment',724,'South Kensington',148.480663,0.28,23748
+'Flat / Apartment',2163,'Bond Street',131.761442,0.08,76860
+'Flat / Apartment',1139,'West Brompton',144.863916,0.64,23748
+'Flat / Apartment',788,'Green Park',215.736041,0.14,76860
+House,1552,'Dalston Junction',86.984536,0.86,33036
+House,2277,'Dalston Junction',105.182257,0.79,33036
+'Flat / Apartment',648,Barbican,138.117284,0.12,38568
+House,2390,'Oxford Circus',152.719665,0.58,76860
+House,3502,'Barnes Bridge',79.954312,1.52,13728
+House,4831,'Putney Bridge',72.428069,2.03,28092
+House,3134,'Putney Bridge',74.984046,2.12,28092
+'Flat / Apartment',911,'Clapham Junction',104.28101,0.36,28092
+House,3394,'Imperial Wharf',11.785504,1.09,22068
+'Flat / Apartment',1030,'Aldgate East',50.970874,1.31,32976
+'Flat / Apartment',924,Greenwich,62.229437,2.4,28476
+House,1965,'Shepherds Bush',76.081425,0.54,22068
+'Flat / Apartment',546,'Clapham Junction',91.575092,0.37,28092
+House,2607,'London Bridge',11.50748,0.71,35496
+'New development',666,'London Bridge',138.888889,0.53,35496
+House,1929,Paddington,168.481078,1.48,23748
+'Flat / Apartment',1574,'Canary Wharf',76.238882,0.43,32976
+House,1252,'Dalston Junction',99.840256,1.26,33036
+'Flat / Apartment',1773,Victoria,245.34687,0.51,23748
+'Flat / Apartment',440,'Shepherds Bush',102.272727,0.45,22068
+'Flat / Apartment',1055,'South Kensington',279.620853,0.18,23748
+House,571,'Canary Wharf',70.052539,0.64,32976
+'Flat / Apartment',569,'West Brompton',210.896309,0.37,23748
+'Flat / Apartment',519,'Piccadilly Circus',183.044316,0.27,76860
+'Flat / Apartment',1210,Hampstead,107.438017,0.54,31164
+'Flat / Apartment',1066,'Canary Wharf',75.046904,0.24,32976
+House,3343,'High Street Kensington',139.09662,0.16,23748
+'New development',551,'Imperial Wharf',126.134301,0.67,22068
+'Flat / Apartment',2247,'Tower Gateway',88.963062,0.96,32976
+'Flat / Apartment',1073,Victoria,92.730662,1.1,23748
+'Flat / Apartment',1147,'Imperial Wharf',104.62075,0.63,22068
+'Flat / Apartment',1581,'St. Johns Wood',189.69007,0.32,76860
+House,2486,'Imperial Wharf',120.474658,0.62,22068
+'Flat / Apartment',420,'Earls Court',125,0.3,23748
+'Flat / Apartment',799,'Aldgate East',75.093867,0.41,32976
+'Flat / Apartment',1156,Victoria,8.650519,0.24,23748
+House,2029,'Camden Town',194.677181,0.61,38568
+'Flat / Apartment',563,'Hackney Downs',86.145648,0.26,33036
+'Flat / Apartment',1372,Wimbledon,94.387755,0.26,28092
+'Flat / Apartment',691,'Canary Wharf',79.59479,0.38,32976
+Penthouse,1535,'St. Johns Wood',114.006515,0.19,76860
+'Flat / Apartment',1698,'Earls Court',97.173145,0.47,23748
+'Flat / Apartment',1796,'Barnes Bridge',94.654788,1.17,13728
+'Flat / Apartment',655,'Clapham Common',104.580153,0.12,34956
+'Flat / Apartment',993,'Wandsworth Town',80.563948,3.67,28092
+House,3468,'Wandsworth Town',76.412918,0.44,28092
+'New development',2720,'Barnes Bridge',128.676471,1.19,13728
+'Flat / Apartment',469,'Canary Wharf',68.230277,0.64,32976
+'New development',1087,'Goodge Street',248.390064,0.12,38568
+'Flat / Apartment',1450,Victoria,213.448276,0.25,23748
+Penthouse,1589,Westminster,235.997483,0.67,76860
+'Flat / Apartment',572,Moorgate,139.86014,0.13,24000
+House,2940,Angel,144.557823,0.23,31164
+'Flat / Apartment',736,'Barnes Bridge',95.108696,0.87,13728
+House,4206,Mortlake,112.933904,0.33,13728
+Penthouse,2433,'Bond Street',154.130703,0.06,76860
+'Flat / Apartment',1024,'Liverpool Street',107.421875,0.33,33036
+House,3646,'Putney Bridge',73.916621,2.05,28092
+'New development',942,'West Kensington',196.390658,0.83,23748
+'Flat / Apartment',538,Bromley-by-Bow,60.408922,0.97,32976
+House,3574,'Clapham Common',76.9446,0.13,34956
+Penthouse,1662,Victoria,210.589651,0.39,76860
+House,5675,'Putney Bridge',71.806167,2.05,28092
+House,2597,Highgate,96.264921,0.15,29436
+'New development',600,'Imperial Wharf',138.333333,0.77,22068
+'New development',911,'Imperial Wharf',156.421515,0.77,22068
+'New development',522,Barbican,172.413793,0.13,24000
+'Flat / Apartment',1186,'Clapham Junction',77.150084,0.83,28092
+House,6796,Victoria,27.957622,0.68,23748
+'Flat / Apartment',844,'Canary Wharf',62.203791,0.49,32976
+'Flat / Apartment',781,Hampstead,140.84507,0.65,31164
+'New development',1835,'London Bridge',162.6703,0.74,35496
+'Flat / Apartment',1007,'Tower Gateway',71.996028,0.48,32976
+'Flat / Apartment',834,Paddington,155.8753,0.59,23748
+'New development',1016,'Shepherds Bush',152.559055,0.82,22068
+'Flat / Apartment',1218,Victoria,116.995074,0.49,76860
+'Flat / Apartment',524,Barbican,152.671756,0.19,33036
+'Flat / Apartment',1241,Hampstead,76.551168,0.53,31164
+'New development',2303,'Old Street',138.949197,0.44,33036
+House,1690,'Wandsworth Town',76.923077,3.53,28092
+'Flat / Apartment',1771,'Canary Wharf',95.990966,0.47,32976
+House,1814,Cricklewood,77.177508,0.33,31452
+'New development',922,'Canary Wharf',129.609544,0.35,32976
+'New development',1176,'Canary Wharf',95.663265,0.3,32976
+'Flat / Apartment',1055,'South Kensington',218.009479,0.67,23748
+'New development',1077,'Imperial Wharf',181.058496,0.77,22068
+'Flat / Apartment',1954,'Clapham Junction',176.560901,0.87,28092
+House,3917,'Wandsworth Town',101.99132,3.71,28092
+'Flat / Apartment',1115,'London Bridge',134.080717,1.7,35496
+House,1683,'Chiswick Park',80.213904,1.18,27216
+'New development',1065,Vauxhall,91.549296,1.71,23748
+Penthouse,1851,'High Street Kensington',21.609941,0.22,23748
+'Flat / Apartment',1465,Wimbledon,98.976109,0.52,28092
+House,3808,'Barnes Bridge',98.476891,1.54,13728
+'Flat / Apartment',1244,Victoria,156.752412,0.38,76860
+Penthouse,1884,'London Bridge',156.581741,1.7,35496
+'Flat / Apartment',619,'Hackney Downs',84.814216,0.94,33036
+'New development',474,Bromley-by-Bow,91.772152,1.19,32976
+'Flat / Apartment',1070,'South Kensington',168.224299,0.58,23748
+'Flat / Apartment',985,'South Kensington',10.152284,0.34,23748
+'Flat / Apartment',818,Victoria,180.317848,0.49,23748
+'Flat / Apartment',538,'South Kensington',204.460967,0.63,23748
+'New development',1007,Victoria,143.992056,0.32,23748
+'Flat / Apartment',711,'South Kensington',196.202532,0.4,23748
+'New development',1010,Victoria,103.960396,0.32,23748
+'New development',758,Victoria,138.522427,0.34,23748
+'New development',1924,'High Street Kensington',205.301455,0.22,23748
+'Flat / Apartment',1122,'St. Johns Wood',68.181818,0.57,76860
+'Flat / Apartment',1008,'Putney Bridge',84.325397,2.15,28092
+House,7798,Victoria,43.600923,0.87,23748
+'Flat / Apartment',1388,Paddington,129.682997,0.24,76860
+'Flat / Apartment',632,'Bethnal Green',76.740506,0.37,32976
+'Flat / Apartment',1292,Victoria,174.148607,0.77,76860
+House,910,Homerton,92.307692,0.11,33036
+'New development',579,'Shepherds Bush',129.533679,0.82,22068
+'Flat / Apartment',1358,'Imperial Wharf',75.478645,1.17,22068
+'Flat / Apartment',2136,'West Brompton',128.745318,1.05,23748
+'Flat / Apartment',1494,Farringdon,100.401606,0.69,38568
+House,954,'Putney Bridge',10.48218,2.04,28092
+'Flat / Apartment',1878,'Putney Bridge',103.833866,2.08,28092
+'Flat / Apartment',1023,'Chiswick Park',90.420332,0.84,27216
+'Flat / Apartment',675,Farringdon,66.666667,0.43,38568
+'Flat / Apartment',950,'Tower Gateway',81.578947,0.51,32976
+'Flat / Apartment',1738,'Camden Town',143.843498,0.74,38568
+'Flat / Apartment',1058,'Golders Green',120.510397,0.24,31164
+'Flat / Apartment',681,'Imperial Wharf',117.474302,0.43,22068
+'New development',1453,'Imperial Wharf',120.440468,0.43,22068
+'New development',1140,'Ealing Broadway',105.263158,0.48,32364
+'New development',591,'Shepherds Bush',133.671743,0.82,22068
+'Flat / Apartment',1971,Hampstead,138.254693,0.87,31164
+'Flat / Apartment',860,Wimbledon,84.302326,0.35,28092
+'Flat / Apartment',593,'Gospel Oak',101.180438,0.38,31164
+'Flat / Apartment',1680,Hampstead,148.809524,0.76,31164
+House,3174,Angel,110.270951,1.33,31164
+House,3600,Mortlake,79.166667,0.52,13728
+'Flat / Apartment',816,'St. Johns Wood',153.186275,0.56,76860
+'Flat / Apartment',517,Angel,676.88588,0.48,31164
+'Flat / Apartment',1515,'West Brompton',148.514851,1.02,23748
+'New development',823,'Clapham Junction',82.017011,0.06,28092
+'Flat / Apartment',1367,Hammersmith,95.098756,0.41,22068
+'Flat / Apartment',1154,'Clapham Junction',116.984402,0.78,28092
+'New development',1528,'Golders Green',104.712042,0.43,31164
+'Flat / Apartment',880,Victoria,159.090909,0.18,23748
+'Flat / Apartment',3486,'Green Park',45.897877,0.36,76860
+'Flat / Apartment',1032,'Maida Vale',111.434109,0.16,23748
+'New development',960,'Canary Wharf',128.125,0.35,32976
+'New development',872,'Golders Green',114.105505,0.43,31164
+Penthouse,2262,'Clapham Junction',108.311229,0.44,28092
+'Flat / Apartment',940,'Bond Street',148.404255,0.12,76860
+'Flat / Apartment',1397,'Hackney Downs',58.339298,0.46,33036
+House,1050,'Tower Gateway',83.333333,0.6,32976
+'New development',1280,'West Hampstead',83.984375,0.42,31164
+'New development',577,'Clapham Junction',91.854419,0.06,28092
+'New development',820,Hornsey,86.585366,0.37,29436
+'Flat / Apartment',732,'South Kensington',163.934426,0.38,23748
+'Flat / Apartment',668,'West Brompton',116.017964,0.32,23748
+Penthouse,1700,'Imperial Wharf',214.705882,0.77,22068
+'New development',1293,Victoria,224.284609,0.77,76860
+House,12435,'St. Johns Wood',20.104544,0.3,76860
+'New development',1236,'Green Park',331.71521,0.36,76860
+Penthouse,3368,'St. Johns Wood',29.691211,0.67,76860
+House,1705,'West Kensington',134.897361,0.78,23748
+'New development',619,'Shepherds Bush',129.240711,0.87,22068
+House,3932,'Ladbroke Grove',22.889115,0.3,23748
+'New development',1352,Hampstead,133.136095,0.23,31164
+'Flat / Apartment',1056,Victoria,131.155303,1.48,23748
+House,1702,Victoria,146.886016,0.58,23748
+'New development',8356,Westminster,29.918621,0.75,76860
+'Flat / Apartment',1349,'Barnes Bridge',85.248332,1.15,13728
+'New development',1766,'Clapham Junction',145.243488,1.4,28092
+'New development',869,'Clapham Junction',120.13809,1.4,28092
+'New development',603,'Clapham Junction',128.026534,1.4,28092
+'New development',1026,'Clapham Junction',142.88499,1.4,28092
+'New development',772,'Clapham Junction',145.466321,1.4,28092
+'New development',636,'Clapham Junction',122.327044,1.4,28092
+'New development',837,'Imperial Wharf',149.342891,0.75,22068
+'Flat / Apartment',915,'Camden Town',125.68306,0.75,38568
+Penthouse,5417,'South Kensington',38.766845,0.44,23748
+'Flat / Apartment',2480,Hampstead,100.806452,0.48,31164
+House,2200,'Clapham Junction',90.681818,0.68,28092
+'Flat / Apartment',1327,'Canary Wharf',71.590053,0.38,32976
+'Flat / Apartment',2207,'Imperial Wharf',106.479384,0.74,22068
+House,3047,'Raynes Park',81.88382,0.6,28092
+House,1692,'Wandsworth Town',70.921986,3.77,28092
+House,3660,Bank,117.486339,0.13,24000
+'Flat / Apartment',1080,'West Brompton',171.296296,0.96,23748
+'Flat / Apartment',1553,'West Brompton',112.685126,1.05,23748
+Penthouse,1984,'South Kensington',176.41129,0.23,23748
